@@ -73,8 +73,9 @@
     background-color: #333;
     background-image: url(/assets/img/clarky.jpg); 
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     background-attachment: fixed;
+    background-size: cover;
   }
 
   .content{
