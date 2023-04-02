@@ -135,7 +135,7 @@ export default{
     background-image: url(/assets/img/clarky.jpg); 
     background-repeat: no-repeat;
     background-position: center top;
-    background-attachment: fixed;
+    //background-attachment: fixed;
     background-size: cover;
     @media (min-width:600px)  { 
         background-attachment: scroll;
