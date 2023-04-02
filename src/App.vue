@@ -88,7 +88,11 @@ export default{
 
     &__menu{
       padding: $gutter;
+      position: sticky;
+      z-index: 1;
+      top: 84px;
       @media (min-width:600px)  { 
+        position: static;        
       } 
     }
 
@@ -96,20 +100,27 @@ export default{
       position: relative;
       padding: $gutter;
       height: 80vh;
+
+      position: sticky;
+      z-index: 1;
+      top: -440px;
+      
       @media (min-width:600px)  { 
         height: auto;
         width: 420px;
-        min-width: 420px;
+        min-width: 420px;        
       } 
     }
 
     &__content{      
       position: relative;
       padding: $gutter;
+      margin-bottom: 62px;
       @media (min-width:600px)  { 
         flex: 1 1 auto;
         overflow-y: auto;
         min-height: 0px;
+        margin-bottom: 0px;
       }      
     }
 
@@ -176,6 +187,7 @@ export default{
   }
   
   .footer{
+    background: #111;
     color: #fff;
     a{
       color: #fff;
@@ -197,11 +209,20 @@ export default{
         }        
       }
     }
-    // @media (min-width:600px)  { 
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    //} 
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    @media (min-width:600px) { 
+      position: static;
+    } 
+
   }
 
   .u{
