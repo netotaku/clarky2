@@ -171,10 +171,13 @@ export default{
     a{
       display: inline-block;
       margin-right: 10px;
+      @media (min-width:600px)  { 
+        margin-right: 20px;
+      } 
     }
     a.router-link-active{
       color: red;
-      text-decoration: underline;
+      //text-decoration: underline;
     }
 
     &__bg{
@@ -182,6 +185,10 @@ export default{
       background-color: whitesmoke;
       border-bottom: solid 1px #ccc;  
     }
+    @media (min-width:600px)  { 
+      font-size: 20px;
+      // font-weight: bold;
+    } 
   }
 
   .brand{
@@ -195,6 +202,9 @@ export default{
       font-weight: normal;
       font-size: 30px;
       margin-bottom: 3px;
+      @media (min-width:600px)  { 
+        font-size: 34px;
+      } 
     }
     @media (min-width:600px)  { 
         position: static;
