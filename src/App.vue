@@ -128,6 +128,10 @@ export default{
 
   }
 
+  h1, h2, h3{
+    letter-spacing: -.5px;
+  }
+
   .header{
     color: #fff;
     background-color: #333;
@@ -193,11 +197,11 @@ export default{
         }        
       }
     }
-    @media (min-width:600px)  { 
+    // @media (min-width:600px)  { 
       display: flex;
       align-items: center;
       justify-content: space-between;
-    } 
+    //} 
   }
 
   .u{

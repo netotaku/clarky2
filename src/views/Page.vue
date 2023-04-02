@@ -118,7 +118,7 @@
 
   .well{
     display: block;
-    background: whitesmoke;
+    background-color: whitesmoke;
     position: relative;
     overflow: hidden;
     border: solid 1px #ccc;

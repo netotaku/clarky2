@@ -6,7 +6,9 @@
                 "name": "spotlight",
                 "label": "Breakbeat Mini Mix",
                 "desc": "Breakbeat / Electro / French House",
-                "url": "https://www.mixcloud.com/mincon/productivity-8-breaks-mini-mix/"
+                "url": "https://www.mixcloud.com/mincon/productivity-8-breaks-mini-mix/",
+                "thumb": "/assets/img/spotlight/deck.png",
+                "modifier": "light"
             },{
                 "name": "icons",
                 "label": "Music links",
@@ -135,7 +137,9 @@
                 "name": "spotlight",
                 "label": "Curriculum Vitae",
                 "desc": "Nick is a highly experienced and commercially focused technical director with a creative approach to solution design.",
-                "url": "https://standardresume.co/r/nbc"
+                "url": "https://standardresume.co/r/nbc",
+                "thumb": "/assets/img/spotlight/computer.png",
+                "modifier": "dark"
             },{
                 "name": "portfolio",
                 "label": "Portfolio",
