@@ -121,7 +121,7 @@
     background-color: whitesmoke;
     position: relative;
     overflow: hidden;
-    border: solid 1px #ccc;
+    // border: solid 1px #ccc;
     border-radius: 4px;
     padding: $gutter;
     text-decoration: none;

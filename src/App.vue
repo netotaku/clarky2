@@ -59,6 +59,9 @@ export default{
     background: #111;
     font-family: sans-serif;
     line-height: 1.4;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   a{
@@ -90,20 +93,28 @@ export default{
       padding: $gutter;
       position: sticky;
       z-index: 1;
-      top: 84px;
+      top: 90px;
+      border-bottom: solid 1px #ccc;
       @media (min-width:600px)  { 
         position: static;        
       } 
+      a{
+        color: #666;
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
     }
 
     &__header{
       position: relative;
       padding: $gutter;
-      height: 80vh;
+      height: 500px;
 
       position: sticky;
       z-index: 1;
-      top: -440px;
+      top: -406px;
       
       @media (min-width:600px)  { 
         height: auto;
@@ -168,6 +179,7 @@ export default{
     }
     a.router-link-active{
       color: red;
+      text-decoration: underline;
     }
   }
 
