@@ -5,10 +5,17 @@
             {
                 "name": "spotlight",
                 "label": "Breakbeat Mini Mix",
-                "desc": "Breakbeat / Electro / French House",
+                "desc": "Breakbeat / Electro / French House.",
                 "url": "https://www.mixcloud.com/mincon/productivity-8-breaks-mini-mix/",
                 "thumb": "/assets/img/spotlight/deck.png",
-                "modifier": "light"
+                "modifier": "dark"
+            },{
+                "name": "spotlight",
+                "label": "Night of the Vampire",
+                "desc": "Experimental pop / metal crossover.",
+                "url": "https://nightofthevampire.uk",
+                "thumb": "/assets/img/spotlight/notv.jpg",
+                "modifier": "dark"
             },{
                 "name": "icons",
                 "label": "Music links",
@@ -142,7 +149,7 @@
                 "modifier": "dark"
             },{
                 "name": "portfolio",
-                "label": "Portfolio",
+                "label": "Portfolio Websites",
                 "list": [
                     {
                         "label": "Turtle Bay",
@@ -152,6 +159,10 @@
                         "label": "Download",
                         "url": "https:/downloadgermanyfestival.de",
                         "thumb": "/assets/img/portfolio/dlg.png"
+                    },{
+                        "label": "Night of the Vampire",
+                        "url": "https:/nightofthevampire.uk",
+                        "thumb": "/assets/img/portfolio/share.jpg"
                     }
                 ]
             },{

@@ -6,7 +6,7 @@
         :href="icon.url" 
         class="hg__u hg__u--thd well portfolio__card"
         :style="'background-image: url(' + icon.thumb + ')'"
-        target="_bank">{{ icon.label }}</a>
+        target="_bank"></a>
 </template>
 
 <script>

@@ -4,7 +4,7 @@
         target="_blank" 
         :class="'hg__u hg__u--ful well spotlight spotlight--' + blockData.modifier">
         <div class="spotlight__title">
-            <h2>{{ blockData.label }}</h2>
+            <h2 class="spotlight__h2">{{ blockData.label }}</h2>
             <p class="spotlight__desc">{{ blockData.desc }}</p>
             <p class="well__link u-bw">{{ blockData.url }}</p>
         </div>
@@ -21,7 +21,7 @@
     .spotlight{
         height: 350px;
         background-size: cover;
-        background-position: center;
+        background-position: center bottom;
         border: 0;
         position: relative;
         &--dark{
@@ -41,6 +41,13 @@
             @media (min-width:600px)  { 
                 width: 60%;  
             }                       
-        }        
+        }  
+        &__h2{
+            font-size: 1.8rem;
+            line-height: 1.2;
+            @media (min-width:600px)  { 
+                font-size: 4rem; 
+            }    
+        }      
     }
 </style>
