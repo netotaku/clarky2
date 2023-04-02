@@ -13,13 +13,16 @@
                 "list": [
                     {
                         "label": "YouTube",
-                        "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg"
+                        "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg",
+                        "theme": "#FF0000"
                     },{
                         "label": "Mixcloud",
-                        "url": "https://www.mixcloud.com/mincon"
+                        "url": "https://www.mixcloud.com/mincon",
+                        "theme": "rgb(237, 139, 121)"
                     },{
                         "label": "Soundcloud",
-                        "url": "https://soundcloud.com/trialanderror"
+                        "url": "https://soundcloud.com/trialanderror",
+                        "theme": "#f70"
                     }
                 ]
             },{
@@ -28,13 +31,16 @@
                 "list": [
                     {
                         "label": "Github",
-                        "url": "https://github.com/netotaku"
+                        "url": "https://github.com/netotaku",
+                        "theme": "black"
                     },{
                         "label": "LinkedIn",
-                        "url": "https://www.linkedin.com/in/nicholasclarkson"
+                        "url": "https://www.linkedin.com/in/nicholasclarkson",
+                        "theme": "#0077b5"
                     },{
                         "label": "CV",
-                        "url": "https://standardresume.co/r/nbc"
+                        "url": "https://standardresume.co/r/nbc",
+                        "theme": "#333"
                     }
                 ]
             }
@@ -79,26 +85,26 @@
                 "url": "https://www.mixcloud.com/mincon/playlists/productivity",
                 "tracks": [
                     {
-                        "label": "Productivity 8",
-                        "url": "https://youtu.be/x1oP8LK-Osc"
+                        "label": "Productivity 8 - Breakbeat Mini Mix",
+                        "url": "https://www.mixcloud.com/mincon/productivity-8-breaks-mini-mix/"
                     },{
                         "label": "Productivity 6 - Hip Hop Mashup",
-                        "url": "https://youtu.be/x1oP8LK-Osc"
+                        "url": "https://soundcloud.com/trialanderror/oldskool-mashup"
                     },{
                         "label": "Productivity 5 - Down Tempo Breaks",
-                        "url": "https://youtu.be/x1oP8LK-Osc"
+                        "url": "https://www.mixcloud.com/mincon/productivity-5/"
                     },{
                         "label": "Productivity 4 - Big Beat Retrospective",
-                        "url": "https://youtu.be/x1oP8LK-Osc"
+                        "url": "https://www.mixcloud.com/mincon/productivity-4-big-beat-retrospective/"
                     },{
-                        "label": "Productivity 3",
-                        "url": "https://youtu.be/x1oP8LK-Osc"
+                        "label": "Productivity 3 - Electronica",
+                        "url": "https://www.mixcloud.com/mincon/productivity-3/"
                     },{
-                        "label": "Productivity 2",
-                        "url": "https://youtu.be/x1oP8LK-Osc"
+                        "label": "Productivity 2 - Electronica",
+                        "url": "https://www.mixcloud.com/mincon/productivity-2/"
                     },{
-                        "label": "Productivity 1",
-                        "url": "https://youtu.be/x1oP8LK-Osc"
+                        "label": "Productivity 1 - Electronica",
+                        "url": "https://www.mixcloud.com/mincon/productivity-1/"
                     }
                 ]
             },{
@@ -107,13 +113,16 @@
                 "list": [
                     {
                         "label": "YouTube",
-                        "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg"
+                        "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg",
+                        "theme": "#FF0000"
                     },{
                         "label": "Mixcloud",
-                        "url": "https://www.mixcloud.com/mincon"
+                        "url": "https://www.mixcloud.com/mincon",
+                        "theme": "rgb(237, 139, 121)"
                     },{
                         "label": "Soundcloud",
-                        "url": "https://soundcloud.com/trialanderror"
+                        "url": "https://soundcloud.com/trialanderror",
+                        "theme": "#f70"
                     }
                 ]
             }
@@ -132,7 +141,7 @@
                 "label": "Portfolio",
                 "list": [
                     {
-                        "label": "Trutle Bay",
+                        "label": "Turtle Bay",
                         "url": "https://turtlebay.co.uk"
                     },{
                         "label": "Download",
@@ -145,10 +154,12 @@
                 "list": [
                     {
                         "label": "Github",
-                        "url": "https://github.com/netotaku"
+                        "url": "https://github.com/netotaku",
+                        "theme": "black"
                     },{
                         "label": "LinkedIn",
-                        "url": "https://www.linkedin.com/in/nicholasclarkson"
+                        "url": "https://www.linkedin.com/in/nicholasclarkson",
+                        "theme": "#0077b5"
                     }
                 ]
             }

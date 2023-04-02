@@ -19,8 +19,7 @@
       </div>
       <footer class="layout__footer footer">
         <div class="footer__copy">
-          <p>Made in Bristol, UK with Vue, Express and Heroku</p>
-          <p><a href="https://github.com/netotaku/clarky2" target="_blank">View on GitHub</a></p>
+          <p><a href="https://github.com/netotaku/clarky2" target="_blank" class="u-v">v1.0</a></p>
         </div>
         <div class="footer__social">
           <a target="_blank" href="https://www.tiktok.com/@clar.ky">TikTok</a>
@@ -180,9 +179,18 @@ export default{
     &__social{
       a{
         display: inline-block;
-        &:not(:last-child){
-          margin-right: 6px;
+        text-decoration: none;
+        &:not(:last-child){          
+          &:after{
+            margin-right: 6px;
+            content: "/";
+            margin-left: 6px;
+            color: #aaa!important;
+          }          
         }
+        &:hover{
+          color: orange;
+        }        
       }
     }
     @media (min-width:600px)  { 
@@ -202,6 +210,9 @@ export default{
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
+    }
+    &-v{
+      color: #555!important;
     }
   }
 

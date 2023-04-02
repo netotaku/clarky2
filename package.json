@@ -8,8 +8,8 @@
     "lint": "vue-cli-service lint",
     "start": "node server.js"
   },
-  "engines" : {     
-    "node" : "14.15.0"
+  "engines": {
+    "node": "14.15.0"
   },
   "dependencies": {
     "core-js": "^3.6.5",
