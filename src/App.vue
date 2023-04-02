@@ -10,10 +10,10 @@
         </header>
         <section class="layout__page">        
           <menu class="layout__menu menu">
-            <router-link v-for="(item, index) in sitedata" :to="item.path" :key="index">{{item.label}}</router-link>
+            <router-link v-for="(item, index) in sitedata" :to="index" :key="index">{{item.label}}</router-link>
           </menu>   
           <div class="layout__content content"> 
-            <router-view/>
+            <router-view :key="$route.fullPath"/>
           </div>
         </section>
       </div>
@@ -22,7 +22,6 @@
         <p><a href="https://github.com/netotaku/clarky2" target="_blank">View on GitHub</a></p>
       </footer>
     </div>
-
   </article>
 </template>
 
@@ -38,7 +37,6 @@ export default{
 }
 </script>
 
-
 <style lang="scss">
   // vars
   $gutter: 20px;
@@ -47,6 +45,7 @@ export default{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    list-style-type: none;
   }
 
   html,body{
@@ -67,19 +66,21 @@ export default{
       display: flex;
       flex-direction: column;
       height: 100vh;
+      max-height: 100vh;
+      min-height: 100vh;
     }   
 
     &__top{
       @media (min-width:600px)  { 
         display: flex;
         flex-grow: 1;
+        min-height: 0px;
       }         
     }
 
     &__menu{
       padding: $gutter;
       @media (min-width:600px)  { 
-        
       } 
     }
 
@@ -94,19 +95,22 @@ export default{
     }
 
     &__content{      
+      position: relative;
       padding: $gutter;
       @media (min-width:600px)  { 
-        display: flex;
+        flex: 1 1 auto;
+        overflow-y: auto;
+        min-height: 0px;
       }      
     }
 
     &__page{
-      flex-grow: 1;
       background: #fff;
       @media (min-width:600px)  { 
-        
-      }     
-      
+        flex-grow: 1;
+        display: flex; 
+        flex-direction: column;
+      }           
     }
 
     &__footer{

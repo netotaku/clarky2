@@ -1,18 +1,75 @@
 {
-    "index": {
+    "/": {
         "label": "Home",
-        "path": "/"
+        "blocks": [
+            {
+                "name": "spotlight",
+                "label": "Breakbeat Mini Mix",
+                "url": "https://www.mixcloud.com/mincon/productivity-8-breaks-mini-mix/"
+            },{
+                "name": "icons",
+                "label": "Social links",
+                "list": [
+                    {
+                        "label": "TikTok",
+                        "url": "https://www.tiktok.com/@clar.ky"
+                    },{
+                        "label": "Twitter",
+                        "url": "https://twitter.com/t_pk"
+                    },{
+                        "label": "Instagram",
+                        "url": "https://www.instagram.com/clar.ky"
+                    },{
+                        "label": "Strava",
+                        "url": "https://www.strava.com/athletes/18818524"
+                    }
+                ]
+            },{
+                "name": "icons",
+                "label": "Music links",
+                "list": [
+                    {
+                        "label": "YouTube",
+                        "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg"
+                    },{
+                        "label": "Mixcloud",
+                        "url": "https://www.mixcloud.com/mincon"
+                    },{
+                        "label": "Soundcloud",
+                        "url": "https://soundcloud.com/trialanderror"
+                    }
+                ]
+            },{
+                "name": "icons",
+                "label": "Work links",
+                "list": [
+                    {
+                        "label": "Github",
+                        "url": "https://github.com/netotaku"
+                    },{
+                        "label": "LinkedIn",
+                        "url": "https://www.linkedin.com/in/nicholasclarkson"
+                    }
+                ]
+            }
+        ]
     },
-    "music": {
-        "label": "Music",
-        "path": "/music"
+    "/music": {
+        "label": "Music",        
+        "blocks": [
+            {
+                "name": "spotlight",
+                "label": "Night of the Vampire",
+                "url": "https://nightofthevampire.uk/"
+            }
+        ]
     },
-    "work": {
-        "label": "Work",
-        "path": "/work"
+    "/work": {
+        "label": "Work",        
+        "blocks": []
     },
-    "playlists": {
-        "label": "Playlists",
-        "path": "/playlists"
+    "/playlists": {
+        "label": "Playlists",        
+        "blocks": []
     }
 }

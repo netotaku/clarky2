@@ -1,13 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Page from '../views/Page.vue'
 import sitedata from "../json/site.json"
-// console.log(sitedata, "from routes");
 
 let routes = [];
 
 for(let r in sitedata){
   routes.push({
-    path: sitedata[r].path,
+    path: r,
     name: sitedata[r].label,
     component: Page
   })
