@@ -114,7 +114,7 @@ export default{
 
       position: sticky;
       z-index: 1;
-      top: -406px;
+      top: -403px;
       
       @media (min-width:600px)  { 
         height: auto;
@@ -159,16 +159,8 @@ export default{
     background-color: #333;
     background-image: url(/assets/img/clarky.jpg); 
     background-repeat: no-repeat;
-    background-position: center top;
-    //background-attachment: fixed;
+    background-position: center top;    
     background-size: cover;
-    @media (min-width:600px)  { 
-        background-attachment: scroll;
-    } 
-  }
-
-  .content{
-
   }
 
   .menu{
@@ -187,10 +179,12 @@ export default{
     position: absolute;
     left: $gutter;
     right: $gutter;
-    bottom: $gutter;
+    bottom: $gutter;    
     &__sig{
       border-bottom: solid 3px white;
-      padding-bottom: 3px;
+      font-family: 'Caveat Brush', sans-serif;
+      font-weight: normal;
+      font-size: 30px;
       margin-bottom: 3px;
     }
     @media (min-width:600px)  { 

@@ -7,7 +7,7 @@
                 "label": "Breakbeat Mini Mix",
                 "desc": "Breakbeat / Electro / French House.",
                 "url": "https://www.mixcloud.com/mincon/productivity-8-breaks-mini-mix/",
-                "thumb": "/assets/img/spotlight/deck.png",
+                "thumb": "/assets/img/spotlight/deck.png?1",
                 "modifier": "dark"
             },{
                 "name": "spotlight",
@@ -63,6 +63,7 @@
                 "label": "Night of the Vampire",
                 "desc": "Experimental pop / metal crossover.",
                 "url": "https://nightofthevampire.uk/",
+                "thumb": "/assets/img/spotlight/notv.jpg?1",
                 "tracks": [
                     {
                         "label": "Shutdown // Night of the Vampire RMX",
@@ -92,6 +93,7 @@
                 "label": "Mixes",
                 "desc": "Breakbeat / Electronica.",
                 "url": "https://www.mixcloud.com/mincon/playlists/productivity",
+                "thumb": "/assets/img/spotlight/deck.png?1",
                 "tracks": [
                     {
                         "label": "Productivity 8 - Breakbeat Mini Mix",
@@ -145,7 +147,7 @@
                 "label": "Curriculum Vitae",
                 "desc": "Nick is a highly experienced and commercially focused technical director with a creative approach to solution design.",
                 "url": "https://standardresume.co/r/nbc",
-                "thumb": "/assets/img/spotlight/computer.png",
+                "thumb": "/assets/img/spotlight/computer.png?1",
                 "modifier": "dark"
             },{
                 "name": "portfolio",
