@@ -5,25 +5,8 @@
             {
                 "name": "spotlight",
                 "label": "Breakbeat Mini Mix",
+                "desc": "Breakbeat / Electro / French House",
                 "url": "https://www.mixcloud.com/mincon/productivity-8-breaks-mini-mix/"
-            },{
-                "name": "icons",
-                "label": "Social links",
-                "list": [
-                    {
-                        "label": "TikTok",
-                        "url": "https://www.tiktok.com/@clar.ky"
-                    },{
-                        "label": "Twitter",
-                        "url": "https://twitter.com/t_pk"
-                    },{
-                        "label": "Instagram",
-                        "url": "https://www.instagram.com/clar.ky"
-                    },{
-                        "label": "Strava",
-                        "url": "https://www.strava.com/athletes/18818524"
-                    }
-                ]
             },{
                 "name": "icons",
                 "label": "Music links",
@@ -49,6 +32,9 @@
                     },{
                         "label": "LinkedIn",
                         "url": "https://www.linkedin.com/in/nicholasclarkson"
+                    },{
+                        "label": "CV",
+                        "url": "https://standardresume.co/r/nbc"
                     }
                 ]
             }
@@ -58,18 +44,114 @@
         "label": "Music",        
         "blocks": [
             {
-                "name": "spotlight",
+                "name": "player",
                 "label": "Night of the Vampire",
-                "url": "https://nightofthevampire.uk/"
+                "desc": "Experimental pop / metal crossover.",
+                "url": "https://nightofthevampire.uk/",
+                "tracks": [
+                    {
+                        "label": "Shutdown // Night of the Vampire RMX",
+                        "url": "https://youtu.be/2ns532RSdkE"
+                    },{
+                        "label": "Diamonds // Night of the Vampire RMX",
+                        "url": "https://youtu.be/dYnJvAdWAA0"
+                    },{
+                        "label": "Don't Stop The Music // Night of the Vampire RMX",
+                        "url": "https://youtu.be/gB6kVnDh1bU"
+                    },{
+                        "label": "ET // Night of the Vampire RMX",
+                        "url": "https://youtu.be/kX9UzWUYrG8"
+                    },{
+                        "label": "My Lovin // Night of the Vampire RMX",
+                        "url": "https://youtu.be/X-EG43dec_4"
+                    },{
+                        "label": "Freak Like Me // Night of the Vampire RMX",
+                        "url": "https://youtu.be/Up6TcZA4c9U"
+                    },{
+                        "label": "Just Dance // Night of the Vampire RMX",
+                        "url": "https://youtu.be/x1oP8LK-Osc"
+                    }
+                ]
+            },{
+                "name": "player",
+                "label": "Mixes",
+                "desc": "Breakbeat / Electronica.",
+                "url": "https://www.mixcloud.com/mincon/playlists/productivity",
+                "tracks": [
+                    {
+                        "label": "Productivity 8",
+                        "url": "https://youtu.be/x1oP8LK-Osc"
+                    },{
+                        "label": "Productivity 6 - Hip Hop Mashup",
+                        "url": "https://youtu.be/x1oP8LK-Osc"
+                    },{
+                        "label": "Productivity 5 - Down Tempo Breaks",
+                        "url": "https://youtu.be/x1oP8LK-Osc"
+                    },{
+                        "label": "Productivity 4 - Big Beat Retrospective",
+                        "url": "https://youtu.be/x1oP8LK-Osc"
+                    },{
+                        "label": "Productivity 3",
+                        "url": "https://youtu.be/x1oP8LK-Osc"
+                    },{
+                        "label": "Productivity 2",
+                        "url": "https://youtu.be/x1oP8LK-Osc"
+                    },{
+                        "label": "Productivity 1",
+                        "url": "https://youtu.be/x1oP8LK-Osc"
+                    }
+                ]
+            },{
+                "name": "icons",
+                "label": "Music links",
+                "list": [
+                    {
+                        "label": "YouTube",
+                        "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg"
+                    },{
+                        "label": "Mixcloud",
+                        "url": "https://www.mixcloud.com/mincon"
+                    },{
+                        "label": "Soundcloud",
+                        "url": "https://soundcloud.com/trialanderror"
+                    }
+                ]
             }
         ]
     },
     "/work": {
         "label": "Work",        
-        "blocks": []
-    },
-    "/playlists": {
-        "label": "Playlists",        
-        "blocks": []
+        "blocks": [
+            {
+                "name": "spotlight",
+                "label": "Curriculum Vitae",
+                "desc": "Nick is a highly experienced and commercially focused technical director with a creative approach to solution design.",
+                "url": "https://standardresume.co/r/nbc"
+            },{
+                "name": "portfolio",
+                "label": "Portfolio",
+                "list": [
+                    {
+                        "label": "Trutle Bay",
+                        "url": "https://turtlebay.co.uk"
+                    },{
+                        "label": "Download",
+                        "url": "https:/downloadgermanyfestival.de"
+                    }
+                ]
+            },{
+                "name": "icons",
+                "label": "Work links",
+                "list": [
+                    {
+                        "label": "Github",
+                        "url": "https://github.com/netotaku"
+                    },{
+                        "label": "LinkedIn",
+                        "url": "https://www.linkedin.com/in/nicholasclarkson"
+                    }
+                ]
+            }
+        ]
     }
 }

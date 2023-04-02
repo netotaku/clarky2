@@ -1,6 +1,6 @@
 <template>  
   <div class="hg">
-    <component v-for="(block, index) in pagedata.blocks" :key="index" :is="block.name" :blockData="block" /> 
+    <component v-for="block in pagedata.blocks" :key="block" :is="block.name" :blockData="block" /> 
   </div>
 </template>
 
@@ -9,10 +9,12 @@
   import sitedata from "@/json/site.json"
   import Icons from "@/views/blocks/Icons.vue"
   import Spotlight from "@/views/blocks/Spotlight.vue"
-  
+  import Player from "@/views/blocks/Player.vue"
+  import Portfolio from "@/views/blocks/Portfolio.vue" 
+
   export default{
     components:{
-      Icons, Spotlight
+      Icons, Spotlight, Player, Portfolio
     },
     data(){
       return{
@@ -123,8 +125,18 @@
     border-radius: 4px;
     padding: $gutter;
     text-decoration: none;
+    color: black;
     &--spotlight{
       height: 350px;
+    }
+    &__link{
+      color: blue;
+      text-decoration: underline;  
+    }
+    &:hover{
+      .well__link{
+        text-decoration: none;      
+      } 
     }
   }
 

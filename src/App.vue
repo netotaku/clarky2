@@ -18,8 +18,16 @@
         </section>
       </div>
       <footer class="layout__footer footer">
-        <p>Made in Bristol, UK with Vue, Express and Heroku</p>
-        <p><a href="https://github.com/netotaku/clarky2" target="_blank">View on GitHub</a></p>
+        <div class="footer__copy">
+          <p>Made in Bristol, UK with Vue, Express and Heroku</p>
+          <p><a href="https://github.com/netotaku/clarky2" target="_blank">View on GitHub</a></p>
+        </div>
+        <div class="footer__social">
+          <a target="_blank" href="https://www.tiktok.com/@clar.ky">TikTok</a>
+          <a target="_blank" href="https://twitter.com/t_pk">Twitter</a>
+          <a target="_blank" href="https://www.instagram.com/clar.ky">Instagram</a>
+          <a target="_blank" href="https://www.strava.com/athletes/18818524">Strava</a>
+        </div>
       </footer>
     </div>
   </article>
@@ -49,12 +57,13 @@ export default{
   }
 
   html,body{
-    background: #000;
+    background: #111;
     font-family: sans-serif;
     line-height: 1.4;
   }
 
-  *{
+  a{
+    color: blue;
     &:hover{
       text-decoration: none;
     }
@@ -91,6 +100,7 @@ export default{
       @media (min-width:600px)  { 
         height: auto;
         width: 420px;
+        min-width: 420px;
       } 
     }
 
@@ -166,6 +176,17 @@ export default{
     color: #fff;
     a{
       color: #fff;
+    }
+    @media (min-width:600px)  { 
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    } 
+  }
+
+  .u{
+    &-bw{
+      word-break: break-word;
     }
   }
 
