@@ -10,8 +10,7 @@
         </header>
         <section class="layout__page">        
           <menu class="layout__menu menu">
-            <router-link to="/">Home</router-link>
-            <router-link to="/about">About</router-link>
+            <router-link v-for="(item, index) in sitedata" :to="item.path" :key="index">{{item.label}}</router-link>
           </menu>   
           <div class="layout__content content"> 
             <router-view/>
@@ -26,6 +25,19 @@
 
   </article>
 </template>
+
+<script>
+import sitedata from "@/json/site.json"
+
+export default{
+    data(){
+        return{
+            sitedata: sitedata
+        }
+    }
+}
+</script>
+
 
 <style lang="scss">
   // vars
@@ -122,6 +134,13 @@
 
   .menu{
     background: whitesmoke;
+    a{
+      display: inline-block;
+      margin-right: 10px;
+    }
+    a.router-link-active{
+      color: red;
+    }
   }
 
   .brand{

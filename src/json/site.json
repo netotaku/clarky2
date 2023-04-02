@@ -1,0 +1,18 @@
+{
+    "index": {
+        "label": "Home",
+        "path": "/"
+    },
+    "music": {
+        "label": "Music",
+        "path": "/music"
+    },
+    "work": {
+        "label": "Work",
+        "path": "/work"
+    },
+    "playlists": {
+        "label": "Playlists",
+        "path": "/playlists"
+    }
+}
