@@ -142,10 +142,12 @@
                 "list": [
                     {
                         "label": "Turtle Bay",
-                        "url": "https://turtlebay.co.uk"
+                        "url": "https://turtlebay.co.uk",
+                        "thumb": "/assets/img/portfolio/tb.png"
                     },{
                         "label": "Download",
-                        "url": "https:/downloadgermanyfestival.de"
+                        "url": "https:/downloadgermanyfestival.de",
+                        "thumb": "/assets/img/portfolio/dlg.png"
                     }
                 ]
             },{
