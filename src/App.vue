@@ -5,12 +5,14 @@
         <header class="layout__header header">
           <div class="brand">
             <h1 class="brand__sig">Clarky</h1>
-            <p class="brand__strap">Technology / Music</p>
+            <p class="brand__strap">Technology / Music / Bristol, Uk</p>
           </div>
         </header>
         <section class="layout__page">        
           <menu class="layout__menu menu">
-            <router-link v-for="(item, index) in sitedata" :to="index" :key="index">{{item.label}}</router-link>
+            <div class="menu__bg">
+              <router-link v-for="(item, index) in sitedata" :to="index" :key="index">{{item.label}}</router-link>
+            </div>
           </menu>   
           <div class="layout__content content"> 
             <router-view :key="$route.fullPath"/>
@@ -90,11 +92,11 @@ export default{
     }
 
     &__menu{
-      padding: $gutter;
+      
       position: sticky;
       z-index: 1;
       top: 90px;
-      border-bottom: solid 1px #ccc;
+       
       @media (min-width:600px)  { 
         position: static;        
       } 
@@ -164,7 +166,8 @@ export default{
   }
 
   .menu{
-    background: whitesmoke;
+    // background: whitesmoke;
+    border-bottom: solid 2px rgba(0,0,0,.14);    
     a{
       display: inline-block;
       margin-right: 10px;
@@ -172,6 +175,12 @@ export default{
     a.router-link-active{
       color: red;
       text-decoration: underline;
+    }
+
+    &__bg{
+      padding: $gutter;
+      background-color: whitesmoke;
+      border-bottom: solid 1px #ccc;  
     }
   }
 
