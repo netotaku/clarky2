@@ -9,7 +9,7 @@
             </div>
             <ul class="player__track-list">
                 <li v-for="track in blockData.tracks" :key="track">
-                    <a :href="track.url" target="_blank">{{ track.label }}</a></li>
+                    <a :href="track.url" target="_blank"><span class="u-elps">{{ track.label }}</span></a></li>
             </ul>
         </div>
     </section>

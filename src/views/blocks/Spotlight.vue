@@ -16,7 +16,9 @@
     .spotlight{
         height: 350px;
         &__desc{
-            width: 60%;            
+            @media (min-width:600px)  { 
+                width: 60%;  
+            }                       
         }        
     }
 </style>

@@ -177,6 +177,14 @@ export default{
     a{
       color: #fff;
     }
+    &__social{
+      a{
+        display: inline-block;
+        &:not(:last-child){
+          margin-right: 6px;
+        }
+      }
+    }
     @media (min-width:600px)  { 
       display: flex;
       align-items: center;
@@ -187,6 +195,13 @@ export default{
   .u{
     &-bw{
       word-break: break-word;
+    }
+    &-elps{
+      display: block;
+      position: relative;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
   }
 
