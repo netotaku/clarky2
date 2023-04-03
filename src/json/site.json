@@ -159,12 +159,16 @@
                         "thumb": "/assets/img/portfolio/tb.png"
                     },{
                         "label": "Download",
-                        "url": "https:/downloadgermanyfestival.de",
+                        "url": "https://downloadgermanyfestival.de",
                         "thumb": "/assets/img/portfolio/dlg.png"
                     },{
                         "label": "Night of the Vampire",
-                        "url": "https:/nightofthevampire.uk",
+                        "url": "https://nightofthevampire.uk",
                         "thumb": "/assets/img/portfolio/share.jpg"
+                    },{
+                        "label": "HeyFlow",
+                        "url": "https://heyflow.co.uk",
+                        "thumb": "/assets/img/portfolio/hf.jpg"
                     }
                 ]
             },{

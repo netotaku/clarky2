@@ -4,7 +4,7 @@
         v-for="(icon, index) in blockData.list" 
         :key="index" 
         :href="icon.url" 
-        class="hg__u hg__u--thd well portfolio__card"
+        class="hg__u hg__u--hlf well portfolio__card"
         :style="'background-image: url(' + icon.thumb + ')'"
         target="_bank"></a>
 </template>
