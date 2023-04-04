@@ -14,16 +14,3 @@
         props: ['blockData']
     }
 </script>
-
-<style lang="scss">
-
-    .portfolio{
-        &__card{
-            aspect-ratio: 16 / 9;
-            background-position: center;
-            background-size: cover;
-            border: 0;
-        }
-    }
-
-</style>

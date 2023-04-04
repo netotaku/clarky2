@@ -1,0 +1,25 @@
+.menu{
+    // background: whitesmoke;
+    border-bottom: solid 2px rgba(0,0,0,.14);    
+    a{
+      display: inline-block;
+      margin-right: 10px;
+      @media (min-width:$break)  { 
+        margin-right: $gutter;
+      } 
+    }
+    a.router-link-active{
+      color: red;
+      //text-decoration: underline;
+    }
+
+    &__bg{
+      padding: $gutter;
+      background-color: whitesmoke;
+      border-bottom: solid 1px #ccc;  
+    }
+    @media (min-width:$break)  { 
+      font-size: 20px;
+      // font-weight: bold;
+    } 
+  }

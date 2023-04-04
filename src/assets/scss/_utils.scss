@@ -1,0 +1,15 @@
+.u{
+    &-bw{
+      word-break: break-word;
+    }
+    &-elps{
+      display: block;
+      position: relative;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    &-v{
+      color: #555!important;
+    }
+}

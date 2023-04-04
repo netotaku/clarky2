@@ -12,7 +12,7 @@
             </div>
             <ul class="player__track-list">
                 <li v-for="track in blockData.tracks" :key="track">
-                    <a :href="track.url" target="_blank"><span class="u-elps">{{ track.label }}</span></a></li>
+                    <a @click.prevent="open()" :href="track.url" target="_blank"><span class="u-elps">{{ track.label }}</span></a></li>
             </ul>
         </div>
     </section>
@@ -21,56 +21,11 @@
 
 <script>
     export default {
-        props: ['blockData']
+        props: ['blockData'],
+        methods: {
+            open(){
+                // console.log(e.target)
+            }
+        }
     }
 </script>
-
-<style lang="scss">
-    .player{
-
-        overflow: hidden;
-        border: solid 1px #333;
-        border-bottom-width: 20px;
-        border-radius: 4px;
-
-        background: #111;
-
-        a{
-            color: #ccc;
-        }
-
-        &__banner{
-            padding: 20px;
-            background-color: #000;
-            background-size: cover;
-            background-position: center bottom;
-            color: #fff;
-            height: 230px;
-            position: relative;
-            a{
-                color: #fff;
-            }
-            &__content{
-                position: absolute;
-                bottom: 20px;
-                left: 20px;
-                right: 20px;
-            }
-        }
-        &__track-list{
-            li{
-                border-top: solid 1px #333;
-                a{
-                    display: block;
-                    padding: 10px 20px;
-                    text-decoration: none;
-                    &:hover{
-                        background-color: #555;
-                        color: #fff;
-                    }
-                }
-            }
-            
-        }
-    }
-</style>

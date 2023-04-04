@@ -1,0 +1,19 @@
+.brand{
+    position: absolute;
+    left: $gutter;
+    right: $gutter;
+    bottom: $gutter;    
+    &__sig{
+      border-bottom: solid 3px white;
+      font-family: 'Caveat Brush', sans-serif;
+      font-weight: normal;
+      font-size: 30px;
+      margin-bottom: 3px;
+      @media (min-width:$break)  { 
+        font-size: 34px;
+      } 
+    }
+    @media (min-width:$break)  { 
+        position: static;
+    } 
+  }

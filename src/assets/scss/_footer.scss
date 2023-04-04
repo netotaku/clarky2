@@ -1,0 +1,38 @@
+.footer{
+    background: #111;
+    color: #fff;
+    a{
+      color: #fff;
+    }
+    &__social{
+      a{
+        display: inline-block;
+        text-decoration: none;
+        &:not(:last-child){          
+          &:after{
+            margin-right: 6px;
+            content: "/";
+            margin-left: 6px;
+            color: #aaa!important;
+          }          
+        }
+        &:hover{
+          color: orange;
+        }        
+      }
+    }
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    @media (min-width:$break) { 
+      position: static;
+    } 
+
+  }

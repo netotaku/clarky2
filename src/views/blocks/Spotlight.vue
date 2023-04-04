@@ -17,37 +17,3 @@
     }
 </script>
 
-<style lang="scss">
-    .spotlight{
-        height: 350px;
-        background-size: cover;
-        background-position: center bottom;
-        border: 0;
-        position: relative;
-        &--dark{
-            .spotlight__title{
-                position: absolute;
-                bottom: 20px;
-                left: 20px;
-                right: 20px;
-            }
-            
-            color: #fff!important;
-            .well__link{
-                color: #fff!important;
-            }
-        }
-        &__desc{
-            @media (min-width:600px)  { 
-                width: 60%;  
-            }                       
-        }  
-        &__h2{
-            font-size: 1.8rem;
-            line-height: 1.2;
-            @media (min-width:600px)  { 
-                font-size: 4rem; 
-            }    
-        }      
-    }
-</style>

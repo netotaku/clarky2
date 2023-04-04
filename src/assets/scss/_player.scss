@@ -1,0 +1,47 @@
+.player{
+
+    overflow: hidden;
+    border: solid 1px #333;
+    border-bottom-width: $gutter;
+    border-radius: $radius;
+
+    background: #111;
+
+    a{
+        color: #ccc;
+    }
+
+    &__banner{
+        padding: $gutter;
+        background-color: #000;
+        background-size: cover;
+        background-position: center bottom;
+        color: #fff;
+        height: 230px;
+        position: relative;
+        a{
+            color: #fff;
+        }
+        &__content{
+            position: absolute;
+            bottom: $gutter;
+            left: $gutter;
+            right: $gutter;
+        }
+    }
+    &__track-list{
+        li{
+            border-top: solid 1px #333;
+            a{
+                display: block;
+                padding: $gutter/2 $gutter;
+                text-decoration: none;
+                &:hover{
+                    background-color: #555;
+                    color: #fff;
+                }
+            }
+        }
+        
+    }
+}

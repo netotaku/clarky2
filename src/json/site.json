@@ -67,25 +67,53 @@
                 "tracks": [
                     {
                         "label": "Shutdown // Night of the Vampire RMX",
-                        "url": "https://youtu.be/2ns532RSdkE"
+                        "url": "https://youtu.be/2ns532RSdkE",
+                        "service": {
+                            "platform": "yt",
+                            "id": "2ns532RSdkE"
+                        }
                     },{
                         "label": "Diamonds // Night of the Vampire RMX",
-                        "url": "https://youtu.be/dYnJvAdWAA0"
+                        "url": "https://youtu.be/dYnJvAdWAA0",
+                        "service": {
+                            "platform": "yt",
+                            "id": "dYnJvAdWAA0"
+                        }
                     },{
                         "label": "Don't Stop The Music // Night of the Vampire RMX",
-                        "url": "https://youtu.be/gB6kVnDh1bU"
+                        "url": "https://youtu.be/gB6kVnDh1bU",
+                        "service": {
+                            "platform": "yt",
+                            "id": "gB6kVnDh1bU"
+                        }
                     },{
                         "label": "ET // Night of the Vampire RMX",
-                        "url": "https://youtu.be/kX9UzWUYrG8"
+                        "url": "https://youtu.be/kX9UzWUYrG8",
+                        "service": {
+                            "platform": "yt",
+                            "id": "kX9UzWUYrG8"
+                        }
                     },{
                         "label": "My Lovin // Night of the Vampire RMX",
-                        "url": "https://youtu.be/X-EG43dec_4"
+                        "url": "https://youtu.be/X-EG43dec_4",
+                        "service": {
+                            "platform": "yt",
+                            "id": "X-EG43dec_4"
+                        }
                     },{
                         "label": "Freak Like Me // Night of the Vampire RMX",
-                        "url": "https://youtu.be/Up6TcZA4c9U"
+                        "url": "https://youtu.be/Up6TcZA4c9U",
+                        "service": {
+                            "platform": "yt",
+                            "id": "Up6TcZA4c9U"
+                        }
                     },{
                         "label": "Just Dance // Night of the Vampire RMX",
-                        "url": "https://youtu.be/x1oP8LK-Osc"
+                        "url": "https://youtu.be/x1oP8LK-Osc",
+                        "service": {
+                            "platform": "yt",
+                            "id": "x1oP8LK-Osc"
+                        }
                     }
                 ]
             },{
@@ -97,25 +125,53 @@
                 "tracks": [
                     {
                         "label": "Productivity 8 - Breakbeat Mini Mix",
-                        "url": "https://www.mixcloud.com/mincon/productivity-8-breaks-mini-mix/"
+                        "url": "https://www.mixcloud.com/mincon/productivity-8-breaks-mini-mix/",
+                        "service": {
+                            "platform": "mc",
+                            "id": ""
+                        }
                     },{
                         "label": "Productivity 6 - Hip Hop Mashup",
-                        "url": "https://soundcloud.com/trialanderror/oldskool-mashup"
+                        "url": "https://soundcloud.com/trialanderror/oldskool-mashup",
+                        "service": {
+                            "platform": "sc",
+                            "id": ""
+                        }
                     },{
                         "label": "Productivity 5 - Down Tempo Breaks",
-                        "url": "https://www.mixcloud.com/mincon/productivity-5/"
+                        "url": "https://www.mixcloud.com/mincon/productivity-5/",
+                        "service": {
+                            "platform": "mc",
+                            "id": ""
+                        }
                     },{
                         "label": "Productivity 4 - Big Beat Retrospective",
-                        "url": "https://www.mixcloud.com/mincon/productivity-4-big-beat-retrospective/"
+                        "url": "https://www.mixcloud.com/mincon/productivity-4-big-beat-retrospective/",
+                        "service": {
+                            "platform": "mc",
+                            "id": ""
+                        }
                     },{
                         "label": "Productivity 3 - Electronica",
-                        "url": "https://www.mixcloud.com/mincon/productivity-3/"
+                        "url": "https://www.mixcloud.com/mincon/productivity-3/",
+                        "service": {
+                            "platform": "mc",
+                            "id": ""
+                        }
                     },{
                         "label": "Productivity 2 - Electronica",
-                        "url": "https://www.mixcloud.com/mincon/productivity-2/"
+                        "url": "https://www.mixcloud.com/mincon/productivity-2/",
+                        "service": {
+                            "platform": "mc",
+                            "id": "mc"
+                        }
                     },{
                         "label": "Productivity 1 - Electronica",
-                        "url": "https://www.mixcloud.com/mincon/productivity-1/"
+                        "url": "https://www.mixcloud.com/mincon/productivity-1/",
+                        "service": {
+                            "platform": "mc",
+                            "id": ""
+                        }
                     }
                 ]
             },{
