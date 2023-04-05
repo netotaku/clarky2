@@ -46,7 +46,5 @@
 </script>
 
 <style lang="scss">
-    .app{
-             
-    }
+    .app{} // this is required by the build process
 </style>
