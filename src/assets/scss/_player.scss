@@ -1,19 +1,11 @@
 .player{
 
-    overflow: hidden;
-    border: solid 1px #333;
+    overflow: hidden;    
     border-bottom-width: $gutter;
     border-radius: $radius;
 
-    background: #111;
-
-    a{
-        color: #ccc;
-    }
-
     &__banner{
         padding: $gutter;
-        background-color: #000;
         background-size: cover;
         background-position: center bottom;
         color: #fff;
@@ -29,19 +21,5 @@
             right: $gutter;
         }
     }
-    &__track-list{
-        li{
-            border-top: solid 1px #333;
-            a{
-                display: block;
-                padding: $gutter/2 $gutter;
-                text-decoration: none;
-                &:hover{
-                    background-color: #555;
-                    color: #fff;
-                }
-            }
-        }
-        
-    }
+    
 }

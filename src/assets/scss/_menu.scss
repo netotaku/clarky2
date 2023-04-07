@@ -1,6 +1,5 @@
 .menu{
-    // background: whitesmoke;
-    border-bottom: solid 2px rgba(0,0,0,.14);    
+    padding: $gutter;    
     a{
       display: inline-block;
       margin-right: 10px;
@@ -8,18 +7,25 @@
         margin-right: $gutter;
       } 
     }
-    a.router-link-active{
-      color: red;
-      //text-decoration: underline;
+    a.router-link-active{      
+      text-decoration: underline;
     }
-
-    &__bg{
-      padding: $gutter;
-      background-color: whitesmoke;
-      border-bottom: solid 1px #ccc;  
-    }
+    
     @media (min-width:$break)  { 
-      font-size: 20px;
-      // font-weight: bold;
+      // font-size: 20px;      
+    } 
+  }
+
+  .shadow{
+    display: none;
+    @media (min-width:$break)  { 
+      display: block;
+      background: rgba(0,0,0,.15);
+      height: 4px;
+      position: fixed;
+      z-index: 1;
+      top: 62px;
+      left: 420px;
+      right: 0px;
     } 
   }

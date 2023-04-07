@@ -4,7 +4,7 @@
       <div class="layout__top">
         <header class="layout__header header">
           <div class="brand">
-            <h1 class="brand__sig">Clarky</h1>
+            <h1 class="brand__sig"><router-link to="/">Clarky</router-link></h1>
             <p class="brand__strap">Technology / Music / Bristol, Uk</p>
           </div>
         </header>
@@ -13,8 +13,9 @@
             <div class="menu__bg">
               <router-link v-for="(item, index) in sitedata" :to="index" :key="index">{{item.label}}</router-link>
             </div>
-          </menu>   
+          </menu>            
           <div class="layout__content content"> 
+            <div class="shadow"></div> 
             <router-view :key="$route.fullPath"/>
           </div>
         </section>

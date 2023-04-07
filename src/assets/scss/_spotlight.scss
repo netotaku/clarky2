@@ -1,22 +1,26 @@
 .spotlight{
-    height: 350px;
-    background-size: cover;
-    background-position: center bottom;
-    border: 0;
+    
     position: relative;
-    &--dark{
-        .spotlight__title{
-            position: absolute;
-            bottom: $gutter;
-            left: $gutter;
-            right: $gutter;
+    overflow: hidden;
+    border-radius: $radius;
+
+    &__banner{
+        height: 350px;
+        background-size: cover;
+        background-position: center bottom;
+        border: 0;
+        position: relative;
+    }  
+    &__title{
+        color: #fff;
+        position: absolute;
+        bottom: $gutter;
+        left: $gutter;
+        right: $gutter;
+        a{
+            color: #fff;
         }
-        
-        color: #fff!important;
-        .well__link{
-            color: #fff!important;
-        }
-    }
+    }  
     &__desc{
         @media (min-width:$break)  { 
             width: 60%;  
@@ -24,9 +28,12 @@
     }  
     &__h2{
         font-size: 1.8rem;
-        line-height: 1.2;
+        line-height: 1.2;        
         @media (min-width:$break)  { 
             font-size: 4rem; 
+            line-height: 1;
+            margin-left: -3px;
+            padding-bottom: 4px;
         }    
     }      
 }

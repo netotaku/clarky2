@@ -1,14 +1,16 @@
 <template>
-    <a :href="blockData.url"
-        :style="'background-image:url(' + blockData.thumb + ')'"
-        target="_blank" 
-        :class="'hg__u hg__u--ful well spotlight spotlight--' + blockData.modifier">
-        <div class="spotlight__title">
-            <h2 class="spotlight__h2">{{ blockData.label }}</h2>
-            <p class="spotlight__desc">{{ blockData.desc }}</p>
-            <p class="well__link u-bw">{{ blockData.url }}</p>
+    <div class="hg__u hg__u--ful spotlight">    
+        <div class="spotlight__banner" :style="'background-image:url(' + blockData.thumb + ')'">       
+            <div class="spotlight__title">
+                <h2 class="spotlight__h2">{{ blockData.label }}</h2>
+                <p class="spotlight__desc">{{ blockData.desc }}</p>
+                <p class="u-bw">
+                    <a target="_blank" :href="blockData.url">{{ blockData.url }}</a>
+                </p>
+            </div>
         </div>
-    </a>
+        <iframe v-if="blockData.embed" :src="blockData.embed.url" class="embed embed--mixcloud-mini"></iframe>
+    </div>
 </template>
 
 <script>

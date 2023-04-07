@@ -1,9 +1,5 @@
 .footer{
-    background: #111;
-    color: #fff;
-    a{
-      color: #fff;
-    }
+    
     &__social{
       a{
         display: inline-block;
@@ -13,12 +9,9 @@
             margin-right: 6px;
             content: "/";
             margin-left: 6px;
-            color: #aaa!important;
+    
           }          
-        }
-        &:hover{
-          color: orange;
-        }        
+        }      
       }
     }
     

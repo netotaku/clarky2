@@ -1,0 +1,16 @@
+.embed{
+    width: 100%;
+    display: block;
+    border: 0px;
+    &--mixcloud-mini{
+        height: 60px;   
+        background-color: #333;         
+    }
+    &--youtube{
+        position: relative;
+        overflow: hidden;
+        border-radius: $radius;
+        aspect-ratio: 16/9;
+        background-color: #eee;
+    }
+}

@@ -42,6 +42,28 @@ $green:     #859900;
 //     rendering-intent: auto;
 // }
 
+
+html{
+    // background-color: $base3;
+    a{
+        color: $magenta;
+    }
+}
+
+.menu{
+    background-color: $base3;
+    border-bottom: solid 1px $base2;
+}
+.footer{
+    background-color: $base03;
+    a{
+        color: $base1;
+    }
+}
+.player{
+    background: $base03;
+}
+
 @media (prefers-color-scheme: dark) {
 
 }

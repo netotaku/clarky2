@@ -25,8 +25,7 @@
       @media (min-width:$break)  { 
         position: static;        
       } 
-      a{
-        color: #666;
+      a{        
         text-decoration: none;
         &:hover{
           text-decoration: underline;
@@ -63,7 +62,6 @@
     }
 
     &__page{
-      background: #fff;
       @media (min-width:$break)  { 
         flex-grow: 1;
         display: flex; 
