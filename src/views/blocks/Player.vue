@@ -16,7 +16,7 @@
     </section>
 
     <template v-if="blockData.mode == 'grid'" >
-        <div class="hg__u hg__u--hlf" v-for="track in blockData.tracks" :key="track">
+        <div class="hg__u hg__u--thd" v-for="track in blockData.tracks" :key="track">
             <iframe :src="'https://www.youtube.com/embed/' + track.embed.url" class="embed embed--youtube"></iframe>
         </div>
     </template>
