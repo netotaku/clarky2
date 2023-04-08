@@ -4,6 +4,16 @@
     overflow: hidden;
     border-radius: $radius;
 
+    &__grid{
+        padding: $gutter;
+        background-color: #000;
+        background-image: url(/assets/img/crows.png);
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        padding-bottom: $gutter*4;
+    }
+
     &__brand{
         position: absolute;
         top: 0;

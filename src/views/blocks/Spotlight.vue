@@ -17,13 +17,14 @@
             <li v-for="track in blockData.tracks" :key="track">
                 <iframe class="embed embed--mixcloud-mini" :src="track.embed.url"></iframe></li>
         </ul>
+        <div v-if="blockData.mode == 'grid'" class="spotlight__grid hg">
+            <div class="hg__u hg__u--thd" v-for="track in blockData.tracks" :key="track">
+                <iframe :src="'https://www.youtube.com/embed/' + track.embed.url" class="embed embed--youtube"></iframe>
+            </div>
+        </div>
     </div>
 
-    <template v-if="blockData.mode == 'grid'" >
-        <div class="hg__u hg__u--thd" v-for="track in blockData.tracks" :key="track">
-            <iframe :src="'https://www.youtube.com/embed/' + track.embed.url" class="embed embed--youtube"></iframe>
-        </div>
-    </template>
+
 
 </template>
 

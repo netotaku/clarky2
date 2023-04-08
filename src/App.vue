@@ -37,7 +37,7 @@
   </article>
 </template>
 
-<script>
+<script>  
   import sitedata from "@/json/site.json"
   export default{
       data(){
@@ -48,6 +48,6 @@
   }
 </script>
 
-<style lang="scss">
+<style lang="scss">    
     .app{} // this is required by the build process
 </style>
