@@ -1,0 +1,42 @@
+.icons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: $gutter;
+
+    &--inline{
+        @media (min-width:$break)  { 
+            flex-direction: row;
+        }
+        .icons__icon{                
+            &__label{
+                @media (min-width:$break)  { 
+                  display: none;
+                } 
+            }                
+        }
+    }
+         
+    &__icon{
+        color: #fff;
+        text-decoration: none;
+        display: flex;
+        align-items: center;        
+        border-radius: $radius;
+        padding: $gutter*.75 0;
+        &__i{
+            display: block;
+            font-size: 22px;
+            width: 54px;
+            text-align: center;
+        }        
+
+    }
+    &__title{
+        min-width: 100%;        
+    }
+}
+
+.icon-strava:before{
+    color: #fff;
+}

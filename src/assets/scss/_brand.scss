@@ -1,23 +1,12 @@
-.brand{
-    position: absolute;
-    left: $gutter;
-    right: $gutter;
-    bottom: $gutter;    
+.brand{ 
+    flex-grow: 1; 
     &__sig{
       border-bottom: solid 3px white;
-      // font-family: 'Caveat Brush', sans-serif;
-      // font-weight: normal;
       font-size: 30px;
       margin-bottom: 3px;
       a{
         color: #fff;
         text-decoration: none;
       }
-      @media (min-width:$break)  { 
-      //   font-size: 34px;
-      } 
     }
-    @media (min-width:$break)  { 
-        position: static;
-    } 
   }

@@ -1,6 +1,80 @@
 {
     "/": {
         "label": "Home",
+        "links": [
+            {
+                "name": "icons",
+                "label": "Social links",
+                "modifier": "",
+                "list": [
+                    {
+                        "label": "TikTok",
+                        "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg",
+                        "theme": "#000",
+                        "icon": "icon-tiktok"
+                    },{
+                        "label": "Twitter",
+                        "url": "https://www.mixcloud.com/notv",
+                        "theme": "#1DA1F2",
+                        "icon": "icon-twitter"
+                    },{
+                        "label": "Instagram",
+                        "url": "https://soundcloud.com/trialanderror",
+                        "theme": "#9b6954",
+                        "icon": "icon-instagram"
+                    },{
+                        "label": "Strava",
+                        "url": "https://soundcloud.com/trialanderror",
+                        "theme": "#fc4c02",
+                        "icon": "icon-strava"
+                    }
+                ]
+            },{
+                "name": "icons",
+                "label": "Music links",
+                "modifier": "",
+                "list": [
+                    {
+                        "label": "YouTube",
+                        "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg",
+                        "theme": "#FF0000",
+                        "icon": "icon-youtube-play"
+                    },{
+                        "label": "Mixcloud",
+                        "url": "https://www.mixcloud.com/notv",
+                        "theme": "rgb(237, 139, 121)",
+                        "icon": "icon-mixcloud"
+                    },{
+                        "label": "Soundcloud",
+                        "url": "https://soundcloud.com/trialanderror",
+                        "theme": "#f70",
+                        "icon": "icon-soundcloud"
+                    }
+                ]
+            },{
+                "name": "icons",
+                "label": "Work links",
+                "modifier": "",
+                "list": [
+                    {
+                        "label": "Github",
+                        "url": "https://github.com/netotaku",
+                        "theme": "black",
+                        "icon": "icon-github-alt"
+                    },{
+                        "label": "LinkedIn",
+                        "url": "https://www.linkedin.com/in/nicholasclarkson",
+                        "theme": "#0077b5",
+                        "icon": "icon-linkedin2"
+                    },{
+                        "label": "CV",
+                        "url": "https://standardresume.co/r/nbc",
+                        "theme": "#333",
+                        "icon": "icon-file-o"
+                    }
+                ]
+            }
+        ],
         "blocks": [
             {
                 "name": "spotlight",
@@ -20,47 +94,35 @@
                 "url": "https://nightofthevampire.uk",
                 "thumb": "/assets/img/spotlight/notv.jpg",
                 "modifier": "dark"
-            },{
-                "name": "icons",
-                "label": "Music links",
-                "list": [
-                    {
-                        "label": "YouTube",
-                        "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg",
-                        "theme": "#FF0000"
-                    },{
-                        "label": "Mixcloud",
-                        "url": "https://www.mixcloud.com/notv",
-                        "theme": "rgb(237, 139, 121)"
-                    },{
-                        "label": "Soundcloud",
-                        "url": "https://soundcloud.com/trialanderror",
-                        "theme": "#f70"
-                    }
-                ]
-            },{
-                "name": "icons",
-                "label": "Work links",
-                "list": [
-                    {
-                        "label": "Github",
-                        "url": "https://github.com/netotaku",
-                        "theme": "black"
-                    },{
-                        "label": "LinkedIn",
-                        "url": "https://www.linkedin.com/in/nicholasclarkson",
-                        "theme": "#0077b5"
-                    },{
-                        "label": "CV",
-                        "url": "https://standardresume.co/r/nbc",
-                        "theme": "#333"
-                    }
-                ]
             }
         ]
     },
     "/music": {
-        "label": "Music",        
+        "label": "Music", 
+        "links": [
+            {
+                "name": "icons",
+                "modifier": "icons--inline",
+                "list": [
+                    {
+                        "label": "YouTube",
+                        "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg",
+                        "theme": "#FF0000",
+                        "icon": "icon-youtube-play"
+                    },{
+                        "label": "Mixcloud",
+                        "url": "https://www.mixcloud.com/notv",
+                        "theme": "rgb(237, 139, 121)",
+                        "icon": "icon-mixcloud"
+                    },{
+                        "label": "Soundcloud",
+                        "url": "https://soundcloud.com/trialanderror",
+                        "theme": "#f70",
+                        "icon": "icon-soundcloud"
+                    }
+                ]
+            }
+        ],       
         "blocks": [
             {
                 "name": "player",
@@ -124,7 +186,7 @@
             },{
                 "name": "player",
                 "label": "Mixes",
-                "desc": "Breakbeat / Electronica.",
+                "desc": "Breakbeat / Electronica / Hip Hop.",
                 "url": "https://www.mixcloud.com/notv/playlists/productivity",
                 "thumb": "/assets/img/spotlight/deck.png?1",
                 "mode": "list",
@@ -135,6 +197,13 @@
                         "embed": {
                             "service": "mc",
                             "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-8-breaks-mini-mix%2F"
+                        }
+                    },{
+                        "label": "Productivity 6 - Old Skool Hip Hop Mini Mashup",
+                        "url": "https://www.mixcloud.com/notv/productivity-7-hip-hop-mini-mix/",
+                        "embed": {
+                            "service": "mc",
+                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-7-hip-hop-mini-mix%2F"
                         }
                     },{
                         "label": "Productivity 5 - Down Tempo Breaks",
@@ -173,37 +242,37 @@
                         }
                     }
                 ]
-            },{
-                "name": "icons",
-                "label": "Music links",
-                "list": [
-                    {
-                        "label": "YouTube",
-                        "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg",
-                        "theme": "#FF0000"
-                    },{
-                        "label": "Mixcloud",
-                        "url": "https://www.mixcloud.com/notv",
-                        "theme": "rgb(237, 139, 121)"
-                    },{
-                        "label": "Soundcloud",
-                        "url": "https://soundcloud.com/trialanderror",
-                        "theme": "#f70"
-                    }
-                ]
             }
         ]
     },
     "/work": {
-        "label": "Work",        
+        "label": "Work", 
+        "links": [
+            {
+                "name": "icons",  
+                "modifier": "icons--inline",              
+                "list": [
+                    {
+                        "label": "Github",
+                        "url": "https://github.com/netotaku",
+                        "theme": "black",
+                        "icon": "icon-github-alt"
+                    },{
+                        "label": "LinkedIn",
+                        "url": "https://www.linkedin.com/in/nicholasclarkson",
+                        "theme": "#0077b5",
+                        "icon": "icon-linkedin2"
+                    }
+                ]
+            }
+        ],       
         "blocks": [
             {
                 "name": "spotlight",
                 "label": "Curriculum Vitae",
                 "desc": "Nick is a highly experienced and commercially focused technical director with a creative approach to solution design.",
                 "url": "https://standardresume.co/r/nbc",
-                "thumb": "/assets/img/spotlight/computer.png?1",
-                "modifier": "dark"
+                "thumb": "/assets/img/spotlight/computer.png?1"
             },{
                 "name": "portfolio",
                 "label": "Portfolio Websites",
@@ -224,20 +293,6 @@
                         "label": "HeyFlow",
                         "url": "https://heyflow.co.uk",
                         "thumb": "/assets/img/portfolio/hf.jpg"
-                    }
-                ]
-            },{
-                "name": "icons",
-                "label": "Work links",
-                "list": [
-                    {
-                        "label": "Github",
-                        "url": "https://github.com/netotaku",
-                        "theme": "black"
-                    },{
-                        "label": "LinkedIn",
-                        "url": "https://www.linkedin.com/in/nicholasclarkson",
-                        "theme": "#0077b5"
                     }
                 ]
             }

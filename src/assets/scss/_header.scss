@@ -1,7 +1,34 @@
 .header{
     color: #fff;    
-    background-image: url(/assets/img/clarky.jpg); 
+    background-image: url(/assets/img/dig.jpg); 
+    background-color: $orange;
     background-repeat: no-repeat;
     background-position: center top;    
     background-size: cover;
+
+    &__inner{
+        padding: $gutter;
+        display: flex;
+        gap: $gutter;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @media (min-width:$break)  { 
+            position: static;
+        } 
+    }
+}
+.avatar{
+    width: 70px;
+    height: 70px;
+    background: $green;
+    position: relative;
+    overflow: hidden;
+    border-radius: 45px;
+}
+.u-grad{
+    height: 100%;
+    /* Rectangle 3: */
+    background-image: linear-gradient(-180deg, rgba(0,0,0,0.38) 0%, rgba(0,0,0,0.00) 47%, rgba(0,0,0,0.00) 68%, rgba(0,0,0,0.51) 100%);
 }

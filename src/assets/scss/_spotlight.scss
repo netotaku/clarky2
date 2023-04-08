@@ -10,7 +10,21 @@
         background-position: center bottom;
         border: 0;
         position: relative;
-    }  
+    } 
+    &__link{
+        display: flex;
+        gap: 8px;
+        &__i{
+            padding-top: 4px;
+        }
+        &__label{
+            display: block;
+            padding-right: $gutter;
+            max-width: 100%;
+            position: relative;
+            word-break: break-word;
+        }
+    } 
     &__title{
         color: #fff;
         position: absolute;
@@ -20,6 +34,7 @@
         a{
             color: #fff;
         }
+        
     }  
     &__desc{
         @media (min-width:$break)  { 

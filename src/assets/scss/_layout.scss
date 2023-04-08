@@ -35,12 +35,12 @@
 
     &__header{
       position: relative;
-      padding: $gutter;
+      // padding: $gutter;
       height: 500px;
 
       position: sticky;
       z-index: 1;
-      top: -403px;
+      top: -400px;
       
       @media (min-width:$break)  { 
         height: auto;
@@ -51,14 +51,18 @@
 
     &__content{      
       position: relative;
-      padding: $gutter;
+      
       margin-bottom: 62px;
+      margin-top: 4px;
       @media (min-width:$break)  { 
         flex: 1 1 auto;
         overflow-y: auto;
         min-height: 0px;
         margin-bottom: 0px;
-      }      
+      } 
+      &__area{
+        padding: $gutter;
+      }
     }
 
     &__page{

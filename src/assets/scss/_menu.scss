@@ -1,5 +1,7 @@
 .menu{
-    padding: $gutter;    
+    padding: $gutter*.75 $gutter;  
+    //border-bottom: solid 2px rgba(0,0,0,.15);
+    margin-bottom: -4px;
     a{
       display: inline-block;
       margin-right: 10px;
@@ -8,24 +10,10 @@
       } 
     }
     a.router-link-active{      
-      text-decoration: underline;
+      text-decoration: underline;      
     }
     
     @media (min-width:$break)  { 
-      // font-size: 20px;      
-    } 
-  }
-
-  .shadow{
-    display: none;
-    @media (min-width:$break)  { 
-      display: block;
-      background: rgba(0,0,0,.15);
-      height: 4px;
-      position: fixed;
-      z-index: 1;
-      top: 62px;
-      left: 420px;
-      right: 0px;
+      padding: $gutter;
     } 
   }

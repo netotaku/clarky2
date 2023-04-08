@@ -34,25 +34,3 @@
     // }
   }
 
-  .well{
-    display: block;
-    background-color: whitesmoke;
-    position: relative;
-    overflow: hidden;    
-    border-radius: $radius;
-    padding: $gutter;
-    text-decoration: none;
-    color: black;
-    &--spotlight{
-      height: 350px;
-    }
-    &__link{
-      color: blue;
-      text-decoration: underline;  
-    }
-    &:hover{
-      .well__link{
-        text-decoration: none;      
-      } 
-    }
-  }

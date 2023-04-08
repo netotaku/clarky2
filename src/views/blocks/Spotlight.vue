@@ -4,8 +4,9 @@
             <div class="spotlight__title">
                 <h2 class="spotlight__h2">{{ blockData.label }}</h2>
                 <p class="spotlight__desc">{{ blockData.desc }}</p>
-                <p class="u-bw">
-                    <a target="_blank" :href="blockData.url">{{ blockData.url }}</a>
+                <p class="spotlight__link">
+                    <span class="spotlight__link__i icon-external-link-square"></span> 
+                    <a class="spotlight__link__label" target="_blank" :href="blockData.url">{{ blockData.url }}</a>
                 </p>
             </div>
         </div>

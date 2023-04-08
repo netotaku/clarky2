@@ -6,7 +6,7 @@
             <div class="player__banner__content">
                 <h2 class="spotlight__h2">{{ blockData.label }}</h2>
                 <p>{{ blockData.desc }}</p>
-                <p><a :href="blockData.url" target="_blank" class="u-bw">{{ blockData.url }}</a></p>
+                <p><span class="icon-external-link-square"></span> <a :href="blockData.url" target="_blank" class="u-bw">{{ blockData.url }}</a></p>
             </div>
         </div>
         <ul v-if="blockData.mode == 'list'" class="player__track-list">

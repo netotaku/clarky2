@@ -3,9 +3,14 @@
     <div class="layout">
       <div class="layout__top">
         <header class="layout__header header">
-          <div class="brand">
-            <h1 class="brand__sig"><router-link to="/">Clarky</router-link></h1>
-            <p class="brand__strap">Technology / Music / Bristol, Uk</p>
+          <div class="u-grad">
+            <div class="header__inner">
+              <div class="avatar"></div>
+              <div class="brand">
+                <h1 class="brand__sig"><router-link to="/">Clarky</router-link></h1>
+                <p class="brand__strap">Technology / Music / Bristol, Uk</p>
+              </div>
+            </div>
           </div>
         </header>
         <section class="layout__page">        
@@ -14,9 +19,8 @@
               <router-link v-for="(item, index) in sitedata" :to="index" :key="index">{{item.label}}</router-link>
             </div>
           </menu>            
-          <div class="layout__content content"> 
-            <div class="shadow"></div> 
-            <router-view :key="$route.fullPath"/>
+          <div class="layout__content content">            
+            <router-view :key="$route.fullPath"/>            
           </div>
         </section>
       </div>

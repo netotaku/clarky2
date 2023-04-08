@@ -1,13 +1,17 @@
 <template>
-    <!-- icon block -->    
-    <h3 class="hg__u hg__u--ful">{{ blockData.label }}</h3>   
-    <a 
-        v-for="(icon, index) in blockData.list" 
-        :key="index" 
-        :href="icon.url" 
-        class="hg__u hg__u--qtr well icon"
-        :style="'background-color:' + icon.theme"        
-        target="_bank">{{ icon.label }}</a>
+    <!-- icon block -->        
+    <div :class="'hg__u hg__u--thd icons ' + (blockData.modifier || '')">  
+        <h3 v-if="blockData.label" class="icons__title">{{ blockData.label }}</h3> 
+        <a 
+            v-for="(icon, index) in blockData.list" 
+            :key="index" 
+            :href="icon.url"         
+            :title="icon.label"
+            :style="'background-color:' + icon.theme"        
+            class="icons__icon"
+            target="_bank"><i :class="'icons__icon__i ' + icon.icon"></i> 
+                <span class="icons__icon__label">{{ icon.label }}</span></a>
+    </div>
 </template>
 
 <script>
