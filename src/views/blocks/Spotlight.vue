@@ -1,6 +1,9 @@
 <template>
     <div class="hg__u hg__u--ful spotlight">    
-        <div class="spotlight__banner" :style="'background-image:url(' + blockData.thumb + ')'">       
+        <div class="spotlight__banner" :style="'background-image:url(' + blockData.thumb + ')'"> 
+            <div v-if="blockData.brand" class="spotlight__brand">
+                <img :src="blockData.brand">
+            </div>    
             <div class="spotlight__title">
                 <h2 class="spotlight__h2">{{ blockData.label }}</h2>
                 <p class="spotlight__desc">{{ blockData.desc }}</p>

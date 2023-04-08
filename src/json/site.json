@@ -9,22 +9,22 @@
                 "list": [
                     {
                         "label": "TikTok",
-                        "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg",
+                        "url": "https://www.tiktok.com/@clar.ky",
                         "theme": "#000",
                         "icon": "icon-tiktok"
                     },{
                         "label": "Twitter",
-                        "url": "https://www.mixcloud.com/notv",
+                        "url": "https://twitter.com/t_pk",
                         "theme": "#1DA1F2",
                         "icon": "icon-twitter"
                     },{
                         "label": "Instagram",
-                        "url": "https://soundcloud.com/trialanderror",
+                        "url": "https://www.instagram.com/clar.ky/",
                         "theme": "#9b6954",
                         "icon": "icon-instagram"
                     },{
                         "label": "Strava",
-                        "url": "https://soundcloud.com/trialanderror",
+                        "url": "https://www.strava.com/athletes/18818524",
                         "theme": "#fc4c02",
                         "icon": "icon-strava"
                     }
@@ -99,7 +99,8 @@
                 "desc": "Experimental pop / metal crossover.",
                 "url": "https://nightofthevampire.uk",
                 "thumb": "/assets/img/spotlight/notv.jpg",
-                "mode": "banner"  
+                "mode": "banner",
+                "brand": "/assets/img/notv.png" 
             }
         ]
     },
@@ -137,6 +138,7 @@
                 "url": "https://nightofthevampire.uk/",
                 "thumb": "/assets/img/spotlight/notv.jpg?1",
                 "mode": "grid",
+                "brand": "/assets/img/notv.png",
                 "tracks": [
                     {
                         "label": "Shutdown // Night of the Vampire RMX",
@@ -298,7 +300,7 @@
                     },{
                         "label": "HeyFlow",
                         "url": "https://heyflow.co.uk",
-                        "thumb": "/assets/img/portfolio/hf.jpg?v=3"
+                        "thumb": "/assets/img/portfolio/hf.jpg?v=4"
                     }
                 ]
             }

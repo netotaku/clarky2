@@ -14,10 +14,8 @@
           </div>
         </header>
         <section class="layout__page">        
-          <menu class="layout__menu menu">
-            <div class="menu__bg">
-              <router-link v-for="(item, index) in sitedata" :to="index" :key="index">{{item.label}}</router-link>
-            </div>
+          <menu class="layout__menu menu">            
+            <router-link v-for="(item, index) in sitedata" :to="index" :key="index">{{item.label}}</router-link>            
           </menu>            
           <div class="layout__content content">            
             <router-view :key="$route.fullPath"/>            

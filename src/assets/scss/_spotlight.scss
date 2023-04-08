@@ -4,6 +4,18 @@
     overflow: hidden;
     border-radius: $radius;
 
+    &__brand{
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: $gutter;
+        img{
+            display: block;
+            width: 180px;
+            height: auto;
+        }        
+    }
+
     &__banner{
         height: 350px;
         background-size: cover;

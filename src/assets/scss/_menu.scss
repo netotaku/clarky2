@@ -1,19 +1,30 @@
 .menu{
-    padding: $gutter*.75 $gutter;  
-    //border-bottom: solid 2px rgba(0,0,0,.15);
-    margin-bottom: -4px;
-    a{
-      display: inline-block;
-      margin-right: 10px;
+    // padding: $gutter*.75 $gutter;  
+    // a{          
+    //   @media (min-width:$break)  { 
+    //     // margin-right: $gutter;
+    //   } 
+    // }
+
+    display: flex;
+
+    a{        
+      display: block;
+      padding: $gutter*.75 0; 
+      text-align: center;
+      text-decoration: none;
+      background: rgba(255,255,255,.1);     
+      &:hover,
+      &.router-link-active{      
+        background: rgba(0,0,0,.2);     
+      }
+      min-width: 90px;
       @media (min-width:$break)  { 
-        margin-right: $gutter;
+        min-width: 100px;
+        padding: $gutter 0;
       } 
     }
-    a.router-link-active{      
-      text-decoration: underline;      
-    }
+
     
-    @media (min-width:$break)  { 
-      padding: $gutter;
-    } 
+  
   }

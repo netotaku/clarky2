@@ -25,12 +25,7 @@
       @media (min-width:$break)  { 
         position: static;        
       } 
-      a{        
-        text-decoration: none;
-        &:hover{
-          text-decoration: underline;
-        }
-      }
+
     }
 
     &__header{
@@ -53,7 +48,7 @@
       position: relative;
       
       margin-bottom: 62px;
-      margin-top: 4px;
+      // margin-top: 4px;
       @media (min-width:$break)  { 
         flex: 1 1 auto;
         overflow-y: auto;
