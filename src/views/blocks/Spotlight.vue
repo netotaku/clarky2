@@ -10,8 +10,18 @@
                 </p>
             </div>
         </div>
-        <iframe v-if="blockData.embed" :src="blockData.embed.url" class="embed embed--mixcloud-mini"></iframe>
+        <ul v-if="blockData.mode == 'list'" class="player__track-list">
+            <li v-for="track in blockData.tracks" :key="track">
+                <iframe class="embed embed--mixcloud-mini" :src="track.embed.url"></iframe></li>
+        </ul>
     </div>
+
+    <template v-if="blockData.mode == 'grid'" >
+        <div class="hg__u hg__u--thd" v-for="track in blockData.tracks" :key="track">
+            <iframe :src="'https://www.youtube.com/embed/' + track.embed.url" class="embed embed--youtube"></iframe>
+        </div>
+    </template>
+
 </template>
 
 <script>

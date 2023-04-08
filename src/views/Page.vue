@@ -12,12 +12,11 @@
   import sitedata from "@/json/site.json"
   import Icons from "@/views/blocks/Icons.vue"
   import Spotlight from "@/views/blocks/Spotlight.vue"
-  import Player from "@/views/blocks/Player.vue"
   import Portfolio from "@/views/blocks/Portfolio.vue" 
 
   export default{
     components:{
-      Icons, Spotlight, Player, Portfolio
+      Icons, Spotlight, Portfolio
     },
     data(){
       return{
