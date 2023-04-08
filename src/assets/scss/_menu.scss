@@ -13,8 +13,8 @@
       padding: $gutter*.75 0; 
       text-align: center;
       text-decoration: none;
-      background: rgba(255,255,255,.1);     
-      &:hover,
+      background: rgba(255,255,255,.2);     
+      
       &.router-link-active{      
         background: rgba(0,0,0,.2);     
       }
@@ -22,6 +22,9 @@
       @media (min-width:$break)  { 
         min-width: 100px;
         padding: $gutter 0;
+        &:hover{
+          background: rgba(0,0,0,.2);
+        }
       } 
     }
 
