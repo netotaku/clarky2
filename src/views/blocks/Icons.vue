@@ -1,7 +1,7 @@
 <template>
     <!-- icon block -->        
     <div :class="'hg__u icons ' + (blockData.modifier || '')">  
-        <h3 v-if="blockData.label" class="icons__title">{{ blockData.label }}</h3> 
+        <h3 v-if="blockData.label" class="icons__title">{{ blockData.label }}</h3>
         <a 
             v-for="(icon, index) in blockData.list" 
             :key="index" 
