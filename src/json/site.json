@@ -5,7 +5,7 @@
             {
                 "name": "icons",
                 "label": "Social links",
-                "modifier": "",
+                "modifier": " hg__u--thd",
                 "list": [
                     {
                         "label": "TikTok",
@@ -32,7 +32,7 @@
             },{
                 "name": "icons",
                 "label": "Music links",
-                "modifier": "",
+                "modifier": " hg__u--thd",
                 "list": [
                     {
                         "label": "YouTube",
@@ -54,7 +54,7 @@
             },{
                 "name": "icons",
                 "label": "Work links",
-                "modifier": "",
+                "modifier": " hg__u--thd",
                 "list": [
                     {
                         "label": "Github",

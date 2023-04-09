@@ -42,6 +42,10 @@
         width: 420px;
         min-width: 420px;        
       } 
+      @media (min-width:600px) and (max-width:1000px)  { 
+        width: 110px;
+        min-width: 110px;          
+      } 
     }
 
     &__content{      
