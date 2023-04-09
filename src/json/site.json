@@ -143,6 +143,7 @@
                     {
                         "label": "Shutdown // Night of the Vampire RMX",
                         "url": "https://youtu.be/2ns532RSdkE",
+                        "cover": "/assets/img/notv/2ns532RSdkE.png",
                         "embed": {
                             "service": "yt",
                             "url": "2ns532RSdkE"
@@ -150,6 +151,7 @@
                     },{
                         "label": "Diamonds // Night of the Vampire RMX",
                         "url": "https://youtu.be/dYnJvAdWAA0",
+                        "cover": "/assets/img/notv/dYnJvAdWAA0.png",
                         "embed": {
                             "service": "yt",
                             "url": "dYnJvAdWAA0"
@@ -157,6 +159,7 @@
                     },{
                         "label": "Don't Stop The Music // Night of the Vampire RMX",
                         "url": "https://youtu.be/gB6kVnDh1bU",
+                        "cover": "/assets/img/notv/gB6kVnDh1bU.png",
                         "embed": {
                             "service": "yt",
                             "url": "gB6kVnDh1bU"
@@ -164,6 +167,7 @@
                     },{
                         "label": "ET // Night of the Vampire RMX",
                         "url": "https://youtu.be/kX9UzWUYrG8",
+                        "cover": "/assets/img/notv/kX9UzWUYrG8.png",
                         "embed": {
                             "service": "yt",
                             "url": "kX9UzWUYrG8"
@@ -171,6 +175,7 @@
                     },{
                         "label": "My Lovin // Night of the Vampire RMX",
                         "url": "https://youtu.be/X-EG43dec_4",
+                        "cover": "/assets/img/notv/X-EG43dec_4.png",
                         "embed": {
                             "service": "yt",
                             "url": "X-EG43dec_4"
@@ -178,6 +183,7 @@
                     },{
                         "label": "Freak Like Me // Night of the Vampire RMX",
                         "url": "https://youtu.be/Up6TcZA4c9U",
+                        "cover": "/assets/img/notv/Up6TcZA4c9U.png",
                         "embed": {
                             "service": "yt",
                             "url": "Up6TcZA4c9U"
@@ -185,6 +191,7 @@
                     },{
                         "label": "Just Dance // Night of the Vampire RMX",
                         "url": "https://youtu.be/x1oP8LK-Osc",
+                        "cover": "/assets/img/notv/x1oP8LK-Osc.png",
                         "embed": {
                             "service": "yt",
                             "url": "x1oP8LK-Osc"

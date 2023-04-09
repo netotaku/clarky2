@@ -12,6 +12,14 @@
         background-position: bottom;
         background-repeat: no-repeat;
         padding-bottom: $gutter*4;
+        &__cover{
+            display: block;
+            background-size: cover;
+            aspect-ratio: 16/9;
+            position: relative;
+            overflow: hidden;
+            border-radius: $radius;
+        }
     }
 
     &__brand{

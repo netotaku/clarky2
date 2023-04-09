@@ -18,8 +18,9 @@
                 <iframe class="embed embed--mixcloud-mini" :src="track.embed.url"></iframe></li>
         </ul>
         <div v-if="blockData.mode == 'grid'" class="spotlight__grid hg">
-            <div class="hg__u hg__u--thd" v-for="track in blockData.tracks" :key="track">
-                <iframe :src="'https://www.youtube.com/embed/' + track.embed.url" class="embed embed--youtube"></iframe>
+            <div class="hg__u hg__u--hlf" v-for="track in blockData.tracks" :key="track">
+                <a target="_blank" :href="track.url" :style="'background-image: url('+track.cover+')'" class="spotlight__grid__cover"></a>                
+                <!-- <iframe :src="'https://www.youtube.com/embed/' + track.embed.url" class="embed embed--youtube"></iframe> -->
             </div>
         </div>
     </div>
