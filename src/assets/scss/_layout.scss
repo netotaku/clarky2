@@ -31,11 +31,11 @@
     &__header{
       position: relative;
       // padding: $gutter;
-      height: 500px;
+      height: 300px;
 
       position: sticky;
       z-index: 1;
-      top: -400px;
+      top: -200px;
       
       @media (min-width:$break)  { 
         height: auto;
