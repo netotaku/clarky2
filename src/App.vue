@@ -35,6 +35,9 @@
       </footer>
     </div>
   </article>
+  <div class="stay-rad">
+    <img src="/assets/img/stayrad.png">
+  </div>
 </template>
 
 <script>  
@@ -48,6 +51,19 @@
   }
 </script>
 
-<style lang="scss">    
-    .app{} // this is required by the build process
+<style lang="scss">        
+    .stay-rad{
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 1;
+      pointer-events: none;
+      @media (max-width:$break)  { 
+          display: none;
+      } 
+      img{
+        display: block;
+        width: 180px;        
+      }
+    }
 </style>
