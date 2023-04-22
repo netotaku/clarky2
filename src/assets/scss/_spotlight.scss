@@ -24,12 +24,15 @@
 
     &__brand{
         position: absolute;
-        top: 0;
-        right: 0;
-        padding: $gutter;
+        top: $gutter;
+        right: $gutter;
+        // padding: $gutter;
+        overflow: hidden;
+        border-radius: $radius;
+        background-color: #000;
         img{
             display: block;
-            width: 180px;
+            width: 80px;
             height: auto;
         }        
     }

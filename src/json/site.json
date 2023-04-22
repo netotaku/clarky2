@@ -1,6 +1,6 @@
 {
     "/": {
-        "label": "Home",
+        "label": "FYP",
         "links": [
             {
                 "name": "icons",
@@ -78,14 +78,34 @@
         "blocks": [
             {
                 "name": "spotlight",
-                "label": "Productivity 6",
-                "desc": "Contiuous Mix. Garage / Breakbeat / Bass House.",
-                "url": "https://www.mixcloud.com/notv/productivity-6-garage-breakbeat-bass-house//",
-                "thumb": "/assets/img/spotlight/nahpop.jpg?3",   
-                "mode": "list",             
+                "label": "Trip Hop Retrospective",
+                "desc": "Contiuous Mix. A look back a the late 90s sound.",
+                "url": "https://www.mixcloud.com/notv/productivity-9-trip-hop-retrospective/",
+                "thumb": "/assets/img/spotlight/p9.png",  
+                "date": "20/04/23", 
+                "mode": "list",
+                "brand": "/assets/img/p/red.jpg",             
                 "tracks": [
                     {
-                        "label": "Productivity 6 - Breakbeat Mini Mix",
+                        "label": "Productivity 9 - Trip Hop Retrospective",
+                        "url": "https://www.mixcloud.com/notv/productivity-9-trip-hop-retrospective/",
+                        "embed": {
+                            "service": "mc",
+                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-9-trip-hop-retrospective%2F"
+                        }
+                    }
+                ]                
+            },{
+                "name": "spotlight",
+                "label": "Productivity 6",
+                "desc": "Contiuous Mix. Garage / Breakbeat / Bass House.",
+                "url": "https://www.mixcloud.com/notv/productivity-6-garage-breakbeat-bass-house/",
+                "thumb": "/assets/img/spotlight/nahpop.jpg?3",   
+                "mode": "list",             
+                "brand": "/assets/img/p/orange.jpg",    
+                "tracks": [
+                    {
+                        "label": "Contiuous Mix. Garage / Breakbeat / Bass House",
                         "url": "https://www.mixcloud.com/notv/productivity-6-garage-breakbeat-bass-house/",
                         "embed": {
                             "service": "mc",
@@ -99,7 +119,8 @@
                 "desc": "Breakbeat / Electro / French House.",
                 "url": "https://www.mixcloud.com/notv/productivity-8-breaks-mini-mix/",
                 "thumb": "/assets/img/spotlight/deck.png?1",   
-                "mode": "list",             
+                "mode": "list",
+                "brand": "/assets/img/p/brown.jpg",                 
                 "tracks": [
                     {
                         "label": "Productivity 8 - Breakbeat Mini Mix",
@@ -116,8 +137,7 @@
                 "desc": "Experimental pop / metal crossover.",
                 "url": "https://nightofthevampire.uk",
                 "thumb": "/assets/img/spotlight/notv.jpg",
-                "mode": "banner",
-                "brand": "/assets/img/notv.png" 
+                "mode": "banner"                
             }
         ]
     },
@@ -148,74 +168,7 @@
             }
         ],       
         "blocks": [
-            {
-                "name": "spotlight",
-                "label": "Night of the Vampire",
-                "desc": "Experimental pop / metal crossover.",
-                "url": "https://nightofthevampire.uk/",
-                "thumb": "/assets/img/spotlight/notv.jpg?1",
-                "mode": "grid",
-                "brand": "/assets/img/notv.png",
-                "tracks": [
-                    {
-                        "label": "Shutdown // Night of the Vampire RMX",
-                        "url": "https://youtu.be/2ns532RSdkE",
-                        "cover": "/assets/img/notv/2ns532RSdkE.png",
-                        "embed": {
-                            "service": "yt",
-                            "url": "2ns532RSdkE"
-                        }
-                    },{
-                        "label": "Diamonds // Night of the Vampire RMX",
-                        "url": "https://youtu.be/dYnJvAdWAA0",
-                        "cover": "/assets/img/notv/dYnJvAdWAA0.png",
-                        "embed": {
-                            "service": "yt",
-                            "url": "dYnJvAdWAA0"
-                        }
-                    },{
-                        "label": "Don't Stop The Music // Night of the Vampire RMX",
-                        "url": "https://youtu.be/gB6kVnDh1bU",
-                        "cover": "/assets/img/notv/gB6kVnDh1bU.png",
-                        "embed": {
-                            "service": "yt",
-                            "url": "gB6kVnDh1bU"
-                        }
-                    },{
-                        "label": "ET // Night of the Vampire RMX",
-                        "url": "https://youtu.be/kX9UzWUYrG8",
-                        "cover": "/assets/img/notv/kX9UzWUYrG8.png",
-                        "embed": {
-                            "service": "yt",
-                            "url": "kX9UzWUYrG8"
-                        }
-                    },{
-                        "label": "My Lovin // Night of the Vampire RMX",
-                        "url": "https://youtu.be/X-EG43dec_4",
-                        "cover": "/assets/img/notv/X-EG43dec_4.png",
-                        "embed": {
-                            "service": "yt",
-                            "url": "X-EG43dec_4"
-                        }
-                    },{
-                        "label": "Freak Like Me // Night of the Vampire RMX",
-                        "url": "https://youtu.be/Up6TcZA4c9U",
-                        "cover": "/assets/img/notv/Up6TcZA4c9U.png",
-                        "embed": {
-                            "service": "yt",
-                            "url": "Up6TcZA4c9U"
-                        }
-                    },{
-                        "label": "Just Dance // Night of the Vampire RMX",
-                        "url": "https://youtu.be/x1oP8LK-Osc",
-                        "cover": "/assets/img/notv/x1oP8LK-Osc.png",
-                        "embed": {
-                            "service": "yt",
-                            "url": "x1oP8LK-Osc"
-                        }
-                    }
-                ]
-            },{
+           {
                 "name": "spotlight",
                 "label": "Mixes",
                 "desc": "Breakbeat / Electronica / Hip Hop.",
@@ -224,6 +177,13 @@
                 "mode": "list",
                 "tracks": [
                     {
+                        "label": "Productivity 9 - Trip Hop Retrospective",
+                        "url": "https://www.mixcloud.com/notv/productivity-9-trip-hop-retrospective/",
+                        "embed": {
+                            "service": "mc",
+                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-9-trip-hop-retrospective%2F"
+                        }
+                    },{
                         "label": "Productivity 8 - Breakbeat Mini Mix",
                         "url": "https://www.mixcloud.com/notv/productivity-8-breaks-mini-mix/",
                         "embed": {
