@@ -79,7 +79,7 @@
             {
                 "name": "spotlight",
                 "label": "Trip Hop Retrospective",
-                "desc": "Contiuous Mix. A look back a the late 90s sound.",
+                "desc": "Contiuous Mix. A look back at the late 90s sound.",
                 "url": "https://www.mixcloud.com/notv/productivity-9-trip-hop-retrospective/",
                 "thumb": "/assets/img/spotlight/p9.png",  
                 "date": "20/04/23", 
@@ -237,7 +237,7 @@
                         "url": "https://www.mixcloud.com/notv/productivity-1/",
                         "embed": {
                             "service": "mc",
-                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fplaylists%2Fproductivity%2F"
+                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-1%2F"
                         }
                     }
                 ]
