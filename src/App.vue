@@ -16,6 +16,7 @@
         <section class="layout__page">        
           <menu class="layout__menu menu">            
             <router-link v-for="(item, index) in sitedata" :to="index" :key="index">{{item.label}}</router-link>            
+            <!-- <a class="menu__raw-link" href="#">Socials</a> -->
           </menu>            
           <div class="layout__content content">            
             <router-view :key="$route.fullPath"/>            
@@ -27,10 +28,10 @@
           <p><a href="https://github.com/netotaku/clarky2" target="_blank" class="u-v">v1.0</a></p>
         </div>
         <div class="footer__social">
-          <a target="_blank" href="https://www.tiktok.com/@clar.ky">TikTok</a>
+          <!-- <a target="_blank" href="https://www.tiktok.com/@clar.ky">TikTok</a>
           <a target="_blank" href="https://twitter.com/t_pk">Twitter</a>
           <a target="_blank" href="https://www.instagram.com/clar.ky">Instagram</a>
-          <a target="_blank" href="https://www.strava.com/athletes/18818524">Strava</a>
+          <a target="_blank" href="https://www.strava.com/athletes/18818524">Strava</a> -->
         </div>
       </footer>
     </div>
@@ -54,16 +55,16 @@
 <style lang="scss">        
     .stay-rad{
       position: fixed;
-      bottom: 20px;
-      left: 20px;
+      bottom: 6px;
+      right: 20px;
       z-index: 1;
-      pointer-events: none;
-      @media (max-width:$break)  { 
-          display: none;
-      } 
+      pointer-events: none;           
       img{
         display: block;
-        width: 180px;        
+        width: 180px;    
+        @media (max-width:$break)  {   
+          width: 140px;   
+        }    
       }
     }
 </style>
