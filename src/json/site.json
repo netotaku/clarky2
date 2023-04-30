@@ -76,7 +76,27 @@
             }
         ],
         "blocks": [
-            {
+             {
+                "name": "spotlight",
+                "label": "U.S.U.R.A demixed",
+                "desc": "Putting the trance classic to rest.",
+                "url": "https://www.tiktok.com/@clar.ky/video/7227554945073974555",
+                "thumb": "/assets/img/spotlight/open-your-mind.jpg",  
+                "date": "24/04/23", 
+                "mode": "list",
+                "brand": "/assets/img/tt.jpg",             
+                "tracks": []                
+            },{
+                "name": "spotlight",
+                "label": "Trip Hop Mini Documentary",
+                "desc": "My regular guest spot on the IA DnB feed.",
+                "url": "https://www.tiktok.com/@interstellaraudiodnb/video/7225360607904550171",
+                "thumb": "/assets/img/spotlight/trip-doc.jpg",  
+                "date": "24/04/23", 
+                "mode": "list",
+                "brand": "/assets/img/tt.jpg",           
+                "tracks": []                
+            },{
                 "name": "spotlight",
                 "label": "Trip Hop Retrospective",
                 "desc": "Contiuous Mix. A look back at the late 90s sound.",
@@ -131,13 +151,6 @@
                         }
                     }
                 ]                
-            },{
-                "name": "spotlight",
-                "label": "Night of the Vampire",
-                "desc": "Experimental pop / metal crossover.",
-                "url": "https://nightofthevampire.uk",
-                "thumb": "/assets/img/spotlight/notv.jpg",
-                "mode": "banner"                
             }
         ]
     },
@@ -168,7 +181,7 @@
             }
         ],       
         "blocks": [
-           {
+            {
                 "name": "spotlight",
                 "label": "Mixes",
                 "desc": "Breakbeat / Electronica / Hip Hop.",
@@ -241,6 +254,13 @@
                         }
                     }
                 ]
+            },{
+                "name": "spotlight",
+                "label": "Night of the Vampire",
+                "desc": "Experimental pop / metal crossover.",
+                "url": "https://nightofthevampire.uk",
+                "thumb": "/assets/img/spotlight/notv.jpg",
+                "mode": "banner"                
             }
         ]
     },
