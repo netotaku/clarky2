@@ -14,9 +14,13 @@
           </div>
         </header>
         <section class="layout__page">        
-          <menu class="layout__menu menu">            
-            <router-link v-for="(item, index) in sitedata" :to="index" :key="index">{{item.label}}</router-link>            
-            <!-- <a class="menu__raw-link" href="#">Socials</a> -->
+          <menu class="layout__menu menu">   
+            <div class="menu__left">         
+              <router-link class="menu__link menu__link--main" v-for="(item, index) in sitedata" :to="index" :key="index">{{item.label}}</router-link>            
+            </div>
+            <div class="menu__right">
+              <a class="menu__link" @click.prevent="modal = !modal" href="#">Connect</a>
+            </div>
           </menu>            
           <div class="layout__content content">            
             <router-view :key="$route.fullPath"/>            
@@ -27,15 +31,28 @@
         <div class="footer__copy">
           <p><a href="https://github.com/netotaku/clarky2" target="_blank" class="u-v">v1.0</a></p>
         </div>
-        <div class="footer__social">
-          <!-- <a target="_blank" href="https://www.tiktok.com/@clar.ky">TikTok</a>
-          <a target="_blank" href="https://twitter.com/t_pk">Twitter</a>
-          <a target="_blank" href="https://www.instagram.com/clar.ky">Instagram</a>
-          <a target="_blank" href="https://www.strava.com/athletes/18818524">Strava</a> -->
-        </div>
       </footer>
+    </div>    
+  </article>  
+  <div v-if="modal" class="overlay">
+    <a class="overlay__close" @click.prevent="modal = !modal" href="#">Close</a>
+    <div class="overlay__modal hg">
+      
+          <div v-for="blockData in linkdata" :key="blockData" :class="'hg__u icons ' + (blockData.modifier || '')">  
+              <h3 v-if="blockData.label" class="icons__title">{{ blockData.label }}</h3>
+              <a 
+                  v-for="(icon, index) in blockData.list" 
+                  :key="index" 
+                  :href="icon.url"         
+                  :title="icon.label"
+                  :style="'background-color:' + icon.theme"        
+                  class="icons__icon"
+                  target="_bank"><i :class="'icons__icon__i ' + icon.icon"></i> 
+                      <span class="icons__icon__label">{{ icon.label }}</span></a>
+          </div>
+      
     </div>
-  </article>
+  </div>
   <div class="stay-rad">
     <img src="/assets/img/stayrad.png">
   </div>
@@ -43,10 +60,16 @@
 
 <script>  
   import sitedata from "@/json/site.json"
+
   export default{
+      components:[
+        
+      ],
       data(){
           return{
-              sitedata: sitedata
+              sitedata: sitedata.routes,
+              linkdata: sitedata.links, 
+              modal: false
           }
       }
   }
@@ -57,7 +80,7 @@
       position: fixed;
       bottom: 6px;
       right: 20px;
-      z-index: 1;
+      z-index: 2;
       pointer-events: none;           
       img{
         display: block;

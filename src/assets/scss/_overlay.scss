@@ -1,0 +1,43 @@
+.overlay{
+    
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;    
+    z-index: 1;
+
+    background-color: rgba(0,43,54,.7);
+    backdrop-filter: blur(10px);
+
+    a{
+        color: #fff;
+    }
+
+    &__close{
+        position: absolute;
+        top: $gutter;
+        right: $gutter;
+        z-index: 1;
+    }
+
+    &__modal{
+        position: relative;
+        overflow: scroll;
+        padding: $gutter;
+        color: #fff;  
+        height: 100vh;     
+        padding-bottom: 76px; 
+        @media (min-width:$break) { 
+            max-width: 1000px;
+            width: 100%;
+            padding-bottom: $gutter; 
+            height: auto;  
+        } 
+    }
+    @media (min-width:$break) { 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+}

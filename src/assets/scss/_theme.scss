@@ -33,8 +33,7 @@ html{
     background-color: $green;
     border-bottom: solid 4px rgba(0,0,0,.1);
     a{
-        color: #fff;
-        font-weight: bold;
+        color: #fff;        
     }
 }
 .layout__content__area--base{
@@ -48,6 +47,10 @@ html{
 }
 .player{
     background: $base03;
+}
+
+.spotlight{
+    background-color: $base02;
 }
 
 @media (prefers-color-scheme: dark) {

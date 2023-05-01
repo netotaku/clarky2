@@ -5,10 +5,10 @@ import sitedata from "../json/site.json"
 
 let routes = [];
 
-for(let r in sitedata){
+for(let r in sitedata.routes){
   routes.push({
     path: r,
-    name: sitedata[r].label,
+    name: sitedata.routes[r].label,
     component: Page
   })
 }

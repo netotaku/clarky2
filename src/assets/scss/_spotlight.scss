@@ -35,9 +35,12 @@
         background-color: #000;
         img{
             display: block;
-            width: 80px;
+            width: 60px;
             height: auto;
-        }        
+            @media (min-width:$break)  { 
+                width: 80px;
+            }   
+        }                
     }
 
     &__banner{

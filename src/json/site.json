@@ -1,322 +1,398 @@
 {
-    "/": {
-        "label": "FYP",
-        "links": [
-            {
-                "name": "icons",
-                "label": "Social links",
-                "modifier": " hg__u--thd",
-                "list": [
-                    {
-                        "label": "TikTok",
-                        "url": "https://www.tiktok.com/@clar.ky",
-                        "theme": "#000",
-                        "icon": "icon-tiktok"
-                    },{
-                        "label": "Twitter",
-                        "url": "https://twitter.com/t_pk",
-                        "theme": "#1DA1F2",
-                        "icon": "icon-twitter"
-                    },{
-                        "label": "Instagram",
-                        "url": "https://www.instagram.com/clar.ky/",
-                        "theme": "#9b6954",
-                        "icon": "icon-instagram"
-                    },{
-                        "label": "Strava",
-                        "url": "https://www.strava.com/athletes/18818524",
-                        "theme": "#fc4c02",
-                        "icon": "icon-strava"
-                    }
-                ]
-            },{
-                "name": "icons",
-                "label": "Music links",
-                "modifier": " hg__u--thd",
-                "list": [
-                    {
-                        "label": "YouTube",
-                        "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg",
-                        "theme": "#FF0000",
-                        "icon": "icon-youtube-play"
-                    },{
-                        "label": "Mixcloud",
-                        "url": "https://www.mixcloud.com/notv",
-                        "theme": "rgb(237, 139, 121)",
-                        "icon": "icon-mixcloud"
-                    },{
-                        "label": "Soundcloud",
-                        "url": "https://soundcloud.com/trialanderror",
-                        "theme": "#f70",
-                        "icon": "icon-soundcloud"
-                    }
-                ]
-            },{
-                "name": "icons",
-                "label": "Work links",
-                "modifier": " hg__u--thd",
-                "list": [
-                    {
-                        "label": "Github",
-                        "url": "https://github.com/netotaku",
-                        "theme": "black",
-                        "icon": "icon-github-alt"
-                    },{
-                        "label": "LinkedIn",
-                        "url": "https://www.linkedin.com/in/nicholasclarkson",
-                        "theme": "#0077b5",
-                        "icon": "icon-linkedin2"
-                    },{
-                        "label": "CV",
-                        "url": "https://standardresume.co/r/nbc",
-                        "theme": "#333",
-                        "icon": "icon-file-o"
-                    }
-                ]
-            }
-        ],
-        "blocks": [
-             {
-                "name": "spotlight",
-                "label": "U.S.U.R.A demixed",
-                "desc": "Putting the trance classic to rest.",
-                "url": "https://www.tiktok.com/@clar.ky/video/7227554945073974555",
-                "thumb": "/assets/img/spotlight/open-your-mind.jpg",  
-                "date": "30 Apr 2023 00:15:32 GMT", 
-                "mode": "list",
-                "brand": "/assets/img/tt.jpg",             
-                "tracks": []                
-            },{
-                "name": "spotlight",
-                "label": "Trip Hop Mini Documentary",
-                "desc": "My regular guest spot on the IA DnB feed.",
-                "url": "https://www.tiktok.com/@interstellaraudiodnb/video/7225360607904550171",
-                "thumb": "/assets/img/spotlight/trip-doc.jpg",  
-                "date": "24 Apr 2023 00:15:32 GMT", 
-                "mode": "list",
-                "brand": "/assets/img/tt.jpg",           
-                "tracks": []                
-            },{
-                "name": "spotlight",
-                "label": "Trip Hop Retrospective",
-                "desc": "Contiuous Mix. A look back at the late 90s sound.",
-                "url": "https://www.mixcloud.com/notv/productivity-9-trip-hop-retrospective/",
-                "thumb": "/assets/img/spotlight/p9.png",  
-                "date": "20 Apr 2023 00:15:32 GMT", 
-                "mode": "list",
-                "brand": "/assets/img/p/red.jpg",             
-                "tracks": [
-                    {
-                        "label": "Productivity 9 - Trip Hop Retrospective",
-                        "url": "https://www.mixcloud.com/notv/productivity-9-trip-hop-retrospective/",
-                        "embed": {
-                            "service": "mc",
-                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-9-trip-hop-retrospective%2F"
+    "routes": {
+        "/": {
+            "label": "FYP",
+            "links": [
+                {
+                    "name": "icons",
+                    "label": "Social links",
+                    "modifier": " hg__u--thd",
+                    "list": [
+                        {
+                            "label": "TikTok",
+                            "url": "https://www.tiktok.com/@clar.ky",
+                            "theme": "#000",
+                            "icon": "icon-tiktok"
+                        },{
+                            "label": "Twitter",
+                            "url": "https://twitter.com/t_pk",
+                            "theme": "#1DA1F2",
+                            "icon": "icon-twitter"
+                        },{
+                            "label": "Instagram",
+                            "url": "https://www.instagram.com/clar.ky/",
+                            "theme": "#9b6954",
+                            "icon": "icon-instagram"
+                        },{
+                            "label": "Strava",
+                            "url": "https://www.strava.com/athletes/18818524",
+                            "theme": "#fc4c02",
+                            "icon": "icon-strava"
                         }
-                    }
-                ]                
-            },{
-                "name": "spotlight",
-                "label": "Productivity 6",
-                "desc": "Contiuous Mix. Garage / Breakbeat / Bass House.",
-                "url": "https://www.mixcloud.com/notv/productivity-6-garage-breakbeat-bass-house/",
-                "thumb": "/assets/img/spotlight/nahpop.jpg?3",  
-                "date": "15 Apr 2023 00:15:32 GMT",  
-                "mode": "list",             
-                "brand": "/assets/img/p/orange.jpg",    
-                "tracks": [
-                    {
-                        "label": "Contiuous Mix. Garage / Breakbeat / Bass House",
-                        "url": "https://www.mixcloud.com/notv/productivity-6-garage-breakbeat-bass-house/",
-                        "embed": {
-                            "service": "mc",
-                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-6-garage-breakbeat-bass-house%2F"
+                    ]
+                },{
+                    "name": "icons",
+                    "label": "Music links",
+                    "modifier": " hg__u--thd",
+                    "list": [
+                        {
+                            "label": "YouTube",
+                            "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg",
+                            "theme": "#FF0000",
+                            "icon": "icon-youtube-play"
+                        },{
+                            "label": "Mixcloud",
+                            "url": "https://www.mixcloud.com/notv",
+                            "theme": "rgb(237, 139, 121)",
+                            "icon": "icon-mixcloud"
+                        },{
+                            "label": "Soundcloud",
+                            "url": "https://soundcloud.com/trialanderror",
+                            "theme": "#f70",
+                            "icon": "icon-soundcloud"
                         }
-                    }
-                ]                
-            },{
-                "name": "spotlight",
-                "label": "Breakbeat Mini Mix",
-                "desc": "Breakbeat / Electro / French House.",
-                "url": "https://www.mixcloud.com/notv/productivity-8-breaks-mini-mix/",
-                "thumb": "/assets/img/spotlight/deck.png?1",   
-                "date": "01 Apr 2023 00:15:32 GMT", 
-                "mode": "list",
-                "brand": "/assets/img/p/brown.jpg",                 
-                "tracks": [
-                    {
-                        "label": "Productivity 8 - Breakbeat Mini Mix",
-                        "url": "https://www.mixcloud.com/notv/productivity-8-breaks-mini-mix/",
-                        "embed": {
-                            "service": "mc",
-                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-8-breaks-mini-mix%2F"
+                    ]
+                },{
+                    "name": "icons",
+                    "label": "Work links",
+                    "modifier": " hg__u--thd",
+                    "list": [
+                        {
+                            "label": "Github",
+                            "url": "https://github.com/netotaku",
+                            "theme": "black",
+                            "icon": "icon-github-alt"
+                        },{
+                            "label": "LinkedIn",
+                            "url": "https://www.linkedin.com/in/nicholasclarkson",
+                            "theme": "#0077b5",
+                            "icon": "icon-linkedin2"
+                        },{
+                            "label": "CV",
+                            "url": "https://standardresume.co/r/nbc",
+                            "theme": "#333",
+                            "icon": "icon-file-o"
                         }
-                    }
-                ]                
-            }
-        ]
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "name": "spotlight",
+                    "label": "U.S.U.R.A demixed",
+                    "desc": "Putting the trance classic to rest.",
+                    "url": "https://www.tiktok.com/@clar.ky/video/7227554945073974555",
+                    "thumb": "/assets/img/spotlight/open-your-mind.jpg",  
+                    "date": "30 Apr 2023 00:15:32 GMT", 
+                    "mode": "list",
+                    "brand": "/assets/img/tt.jpg",             
+                    "tracks": []                
+                },{
+                    "name": "spotlight",
+                    "label": "Trip Hop Mini Documentary",
+                    "desc": "My regular guest spot on the IA DnB feed.",
+                    "url": "https://www.tiktok.com/@interstellaraudiodnb/video/7225360607904550171",
+                    "thumb": "/assets/img/spotlight/trip-doc.jpg",  
+                    "date": "24 Apr 2023 00:15:32 GMT", 
+                    "mode": "list",
+                    "brand": "/assets/img/tt.jpg",           
+                    "tracks": []                
+                },{
+                    "name": "spotlight",
+                    "label": "Trip Hop Retrospective",
+                    "desc": "Contiuous Mix. A look back at the late 90s sound.",
+                    "url": "https://www.mixcloud.com/notv/productivity-9-trip-hop-retrospective/",
+                    "thumb": "/assets/img/spotlight/p9.png",  
+                    "date": "20 Apr 2023 00:15:32 GMT", 
+                    "mode": "list",
+                    "brand": "/assets/img/p/red.jpg",             
+                    "tracks": [
+                        {
+                            "label": "Productivity 9 - Trip Hop Retrospective",
+                            "url": "https://www.mixcloud.com/notv/productivity-9-trip-hop-retrospective/",
+                            "embed": {
+                                "service": "mc",
+                                "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-9-trip-hop-retrospective%2F"
+                            }
+                        }
+                    ]                
+                },{
+                    "name": "spotlight",
+                    "label": "Productivity 6",
+                    "desc": "Contiuous Mix. Garage / Breakbeat / Bass House.",
+                    "url": "https://www.mixcloud.com/notv/productivity-6-garage-breakbeat-bass-house/",
+                    "thumb": "/assets/img/spotlight/nahpop.jpg?3",  
+                    "date": "15 Apr 2023 00:15:32 GMT",  
+                    "mode": "list",             
+                    "brand": "/assets/img/p/orange.jpg",    
+                    "tracks": [
+                        {
+                            "label": "Contiuous Mix. Garage / Breakbeat / Bass House",
+                            "url": "https://www.mixcloud.com/notv/productivity-6-garage-breakbeat-bass-house/",
+                            "embed": {
+                                "service": "mc",
+                                "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-6-garage-breakbeat-bass-house%2F"
+                            }
+                        }
+                    ]                
+                },{
+                    "name": "spotlight",
+                    "label": "Breakbeat Mini Mix",
+                    "desc": "Breakbeat / Electro / French House.",
+                    "url": "https://www.mixcloud.com/notv/productivity-8-breaks-mini-mix/",
+                    "thumb": "/assets/img/spotlight/deck.png?1",   
+                    "date": "01 Apr 2023 00:15:32 GMT", 
+                    "mode": "list",
+                    "brand": "/assets/img/p/brown.jpg",                 
+                    "tracks": [
+                        {
+                            "label": "Productivity 8 - Breakbeat Mini Mix",
+                            "url": "https://www.mixcloud.com/notv/productivity-8-breaks-mini-mix/",
+                            "embed": {
+                                "service": "mc",
+                                "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-8-breaks-mini-mix%2F"
+                            }
+                        }
+                    ]                
+                }
+            ]
+        },
+        "/music": {
+            "label": "Music", 
+            "links": [
+                {
+                    "name": "icons",
+                    "modifier": "icons--inline",
+                    "list": [
+                        {
+                            "label": "YouTube",
+                            "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg",
+                            "theme": "#FF0000",
+                            "icon": "icon-youtube-play"
+                        },{
+                            "label": "Mixcloud",
+                            "url": "https://www.mixcloud.com/notv",
+                            "theme": "rgb(237, 139, 121)",
+                            "icon": "icon-mixcloud"
+                        },{
+                            "label": "Soundcloud",
+                            "url": "https://soundcloud.com/trialanderror",
+                            "theme": "#f70",
+                            "icon": "icon-soundcloud"
+                        }
+                    ]
+                }
+            ],       
+            "blocks": [
+                {
+                    "name": "spotlight",
+                    "label": "Mixes",
+                    "desc": "Breakbeat / Electronica / Hip Hop.",
+                    "url": "https://www.mixcloud.com/notv/playlists/productivity",
+                    "thumb": "/assets/img/spotlight/deck.png?1",
+                    "mode": "list",
+                    "tracks": [
+                        {
+                            "label": "Productivity 9 - Trip Hop Retrospective",
+                            "url": "https://www.mixcloud.com/notv/productivity-9-trip-hop-retrospective/",
+                            "embed": {
+                                "service": "mc",
+                                "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-9-trip-hop-retrospective%2F"
+                            }
+                        },{
+                            "label": "Productivity 8 - Breakbeat Mini Mix",
+                            "url": "https://www.mixcloud.com/notv/productivity-8-breaks-mini-mix/",
+                            "embed": {
+                                "service": "mc",
+                                "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-8-breaks-mini-mix%2F"
+                            }
+                        },{
+                            "label": "Productivity 7 - Old Skool Hip Hop Mini Mashup",
+                            "url": "https://www.mixcloud.com/notv/productivity-7-hip-hop-mini-mix/",
+                            "embed": {
+                                "service": "mc",
+                                "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-7-hip-hop-mini-mix%2F"
+                            }
+                        },{
+                            "label": "Productivity 6 - Breakbeat Mini Mix",
+                            "url": "https://www.mixcloud.com/notv/productivity-6-garage-breakbeat-bass-house/",
+                            "embed": {
+                                "service": "mc",
+                                "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-6-garage-breakbeat-bass-house%2F"
+                            }
+                        },{
+                            "label": "Productivity 5 - Down Tempo Breaks",
+                            "url": "https://www.mixcloud.com/notv/productivity-5/",
+                            "embed": {
+                                "service": "mc",
+                                "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-5%2F"
+                            }
+                        },{
+                            "label": "Productivity 4 - Big Beat Retrospective",
+                            "url": "https://www.mixcloud.com/notv/productivity-4-big-beat-retrospective/",
+                            "embed": {
+                                "service": "mc",
+                                "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-4-big-beat-retrospective%2F"
+                            }
+                        },{
+                            "label": "Productivity 3 - Electronica",
+                            "url": "https://www.mixcloud.com/notv/productivity-3/",
+                            "embed": {
+                                "service": "mc",
+                                "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-3%2F"
+                            }
+                        },{
+                            "label": "Productivity 2 - Electronica",
+                            "url": "https://www.mixcloud.com/notv/productivity-2/",
+                            "embed": {
+                                "service": "mc",
+                                "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-2%2F"
+                            }
+                        },{
+                            "label": "Productivity 1 - Electronica",
+                            "url": "https://www.mixcloud.com/notv/productivity-1/",
+                            "embed": {
+                                "service": "mc",
+                                "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-1%2F"
+                            }
+                        }
+                    ]
+                },{
+                    "name": "spotlight",
+                    "label": "Night of the Vampire",
+                    "desc": "Experimental pop / metal crossover.",
+                    "url": "https://nightofthevampire.uk",
+                    "thumb": "/assets/img/spotlight/notv.jpg",
+                    "mode": "banner"                
+                }
+            ]
+        },
+        "/work": {
+            "label": "Work", 
+            "links": [
+                {
+                    "name": "icons",  
+                    "modifier": "icons--inline",              
+                    "list": [
+                        {
+                            "label": "Github",
+                            "url": "https://github.com/netotaku",
+                            "theme": "black",
+                            "icon": "icon-github-alt"
+                        },{
+                            "label": "LinkedIn",
+                            "url": "https://www.linkedin.com/in/nicholasclarkson",
+                            "theme": "#0077b5",
+                            "icon": "icon-linkedin2"
+                        }
+                    ]
+                }
+            ],       
+            "blocks": [
+                {
+                    "name": "spotlight",
+                    "label": "Curriculum Vitae",
+                    "desc": "Nick is a highly experienced and commercially focused technical director with a creative approach to solution design.",
+                    "url": "https://standardresume.co/r/nbc",
+                    "thumb": "/assets/img/spotlight/computer.png?1"
+                },{
+                    "name": "portfolio",
+                    "label": "Portfolio Websites",
+                    "list": [
+                        {
+                            "label": "Turtle Bay",
+                            "url": "https://turtlebay.co.uk",
+                            "thumb": "/assets/img/portfolio/tb.png"
+                        },{
+                            "label": "Download",
+                            "url": "https://downloadgermanyfestival.de",
+                            "thumb": "/assets/img/portfolio/dlg.png"
+                        },{
+                            "label": "Night of the Vampire",
+                            "url": "https://nightofthevampire.uk",
+                            "thumb": "/assets/img/portfolio/share.jpg"
+                        },{
+                            "label": "HeyFlow",
+                            "url": "https://heyflow.co.uk",
+                            "thumb": "/assets/img/portfolio/hf.jpg?v=4"
+                        }
+                    ]
+                }
+            ]
+        }
     },
-    "/music": {
-        "label": "Music", 
-        "links": [
-            {
-                "name": "icons",
-                "modifier": "icons--inline",
-                "list": [
-                    {
-                        "label": "YouTube",
-                        "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg",
-                        "theme": "#FF0000",
-                        "icon": "icon-youtube-play"
-                    },{
-                        "label": "Mixcloud",
-                        "url": "https://www.mixcloud.com/notv",
-                        "theme": "rgb(237, 139, 121)",
-                        "icon": "icon-mixcloud"
-                    },{
-                        "label": "Soundcloud",
-                        "url": "https://soundcloud.com/trialanderror",
-                        "theme": "#f70",
-                        "icon": "icon-soundcloud"
-                    }
-                ]
-            }
-        ],       
-        "blocks": [
-            {
-                "name": "spotlight",
-                "label": "Mixes",
-                "desc": "Breakbeat / Electronica / Hip Hop.",
-                "url": "https://www.mixcloud.com/notv/playlists/productivity",
-                "thumb": "/assets/img/spotlight/deck.png?1",
-                "mode": "list",
-                "tracks": [
-                    {
-                        "label": "Productivity 9 - Trip Hop Retrospective",
-                        "url": "https://www.mixcloud.com/notv/productivity-9-trip-hop-retrospective/",
-                        "embed": {
-                            "service": "mc",
-                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-9-trip-hop-retrospective%2F"
-                        }
-                    },{
-                        "label": "Productivity 8 - Breakbeat Mini Mix",
-                        "url": "https://www.mixcloud.com/notv/productivity-8-breaks-mini-mix/",
-                        "embed": {
-                            "service": "mc",
-                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-8-breaks-mini-mix%2F"
-                        }
-                    },{
-                        "label": "Productivity 7 - Old Skool Hip Hop Mini Mashup",
-                        "url": "https://www.mixcloud.com/notv/productivity-7-hip-hop-mini-mix/",
-                        "embed": {
-                            "service": "mc",
-                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-7-hip-hop-mini-mix%2F"
-                        }
-                    },{
-                        "label": "Productivity 6 - Breakbeat Mini Mix",
-                        "url": "https://www.mixcloud.com/notv/productivity-6-garage-breakbeat-bass-house/",
-                        "embed": {
-                            "service": "mc",
-                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-6-garage-breakbeat-bass-house%2F"
-                        }
-                    },{
-                        "label": "Productivity 5 - Down Tempo Breaks",
-                        "url": "https://www.mixcloud.com/notv/productivity-5/",
-                        "embed": {
-                            "service": "mc",
-                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-5%2F"
-                        }
-                    },{
-                        "label": "Productivity 4 - Big Beat Retrospective",
-                        "url": "https://www.mixcloud.com/notv/productivity-4-big-beat-retrospective/",
-                        "embed": {
-                            "service": "mc",
-                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-4-big-beat-retrospective%2F"
-                        }
-                    },{
-                        "label": "Productivity 3 - Electronica",
-                        "url": "https://www.mixcloud.com/notv/productivity-3/",
-                        "embed": {
-                            "service": "mc",
-                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-3%2F"
-                        }
-                    },{
-                        "label": "Productivity 2 - Electronica",
-                        "url": "https://www.mixcloud.com/notv/productivity-2/",
-                        "embed": {
-                            "service": "mc",
-                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-2%2F"
-                        }
-                    },{
-                        "label": "Productivity 1 - Electronica",
-                        "url": "https://www.mixcloud.com/notv/productivity-1/",
-                        "embed": {
-                            "service": "mc",
-                            "url": "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&feed=%2Fnotv%2Fproductivity-1%2F"
-                        }
-                    }
-                ]
-            },{
-                "name": "spotlight",
-                "label": "Night of the Vampire",
-                "desc": "Experimental pop / metal crossover.",
-                "url": "https://nightofthevampire.uk",
-                "thumb": "/assets/img/spotlight/notv.jpg",
-                "mode": "banner"                
-            }
-        ]
-    },
-    "/work": {
-        "label": "Work", 
-        "links": [
-            {
-                "name": "icons",  
-                "modifier": "icons--inline",              
-                "list": [
-                    {
-                        "label": "Github",
-                        "url": "https://github.com/netotaku",
-                        "theme": "black",
-                        "icon": "icon-github-alt"
-                    },{
-                        "label": "LinkedIn",
-                        "url": "https://www.linkedin.com/in/nicholasclarkson",
-                        "theme": "#0077b5",
-                        "icon": "icon-linkedin2"
-                    }
-                ]
-            }
-        ],       
-        "blocks": [
-            {
-                "name": "spotlight",
-                "label": "Curriculum Vitae",
-                "desc": "Nick is a highly experienced and commercially focused technical director with a creative approach to solution design.",
-                "url": "https://standardresume.co/r/nbc",
-                "thumb": "/assets/img/spotlight/computer.png?1"
-            },{
-                "name": "portfolio",
-                "label": "Portfolio Websites",
-                "list": [
-                    {
-                        "label": "Turtle Bay",
-                        "url": "https://turtlebay.co.uk",
-                        "thumb": "/assets/img/portfolio/tb.png"
-                    },{
-                        "label": "Download",
-                        "url": "https://downloadgermanyfestival.de",
-                        "thumb": "/assets/img/portfolio/dlg.png"
-                    },{
-                        "label": "Night of the Vampire",
-                        "url": "https://nightofthevampire.uk",
-                        "thumb": "/assets/img/portfolio/share.jpg"
-                    },{
-                        "label": "HeyFlow",
-                        "url": "https://heyflow.co.uk",
-                        "thumb": "/assets/img/portfolio/hf.jpg?v=4"
-                    }
-                ]
-            }
-        ]
-    }
+    "links": [
+        {
+            "name": "icons",
+            "label": "Social links",
+            "modifier": " hg__u--thd",
+            "list": [
+                {
+                    "label": "TikTok",
+                    "url": "https://www.tiktok.com/@clar.ky",
+                    "theme": "#000",
+                    "icon": "icon-tiktok"
+                },{
+                    "label": "Twitter",
+                    "url": "https://twitter.com/t_pk",
+                    "theme": "#1DA1F2",
+                    "icon": "icon-twitter"
+                },{
+                    "label": "Instagram",
+                    "url": "https://www.instagram.com/clar.ky/",
+                    "theme": "#9b6954",
+                    "icon": "icon-instagram"
+                },{
+                    "label": "Strava",
+                    "url": "https://www.strava.com/athletes/18818524",
+                    "theme": "#fc4c02",
+                    "icon": "icon-strava"
+                }
+            ]
+        },{
+            "name": "icons",
+            "label": "Music links",
+            "modifier": " hg__u--thd",
+            "list": [
+                {
+                    "label": "YouTube",
+                    "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg",
+                    "theme": "#FF0000",
+                    "icon": "icon-youtube-play"
+                },{
+                    "label": "Mixcloud",
+                    "url": "https://www.mixcloud.com/notv",
+                    "theme": "rgb(237, 139, 121)",
+                    "icon": "icon-mixcloud"
+                },{
+                    "label": "Soundcloud",
+                    "url": "https://soundcloud.com/trialanderror",
+                    "theme": "#f70",
+                    "icon": "icon-soundcloud"
+                }
+            ]
+        },{
+            "name": "icons",
+            "label": "Work links",
+            "modifier": " hg__u--thd",
+            "list": [
+                {
+                    "label": "Github",
+                    "url": "https://github.com/netotaku",
+                    "theme": "black",
+                    "icon": "icon-github-alt"
+                },{
+                    "label": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/nicholasclarkson",
+                    "theme": "#0077b5",
+                    "icon": "icon-linkedin2"
+                },{
+                    "label": "CV",
+                    "url": "https://standardresume.co/r/nbc",
+                    "theme": "#333",
+                    "icon": "icon-file-o"
+                }
+            ]
+        }
+    ]
 }

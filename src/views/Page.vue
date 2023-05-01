@@ -20,7 +20,7 @@
     },
     data(){
       return{
-        pagedata: sitedata[useRoute().path],
+        pagedata: sitedata.routes[useRoute().path],
         route: useRoute()
       }
     }
