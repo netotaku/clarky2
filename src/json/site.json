@@ -4,9 +4,8 @@
             "label": "FYP",
             "links": [
                 {
-                    "name": "icons",
-                    "label": "Social links",
-                    "modifier": " hg__u--thd",
+                    "name": "icons",                    
+                    "modifier": "icons--inline",
                     "list": [
                         {
                             "label": "TikTok",
@@ -28,50 +27,6 @@
                             "url": "https://www.strava.com/athletes/18818524",
                             "theme": "#fc4c02",
                             "icon": "icon-strava"
-                        }
-                    ]
-                },{
-                    "name": "icons",
-                    "label": "Music links",
-                    "modifier": " hg__u--thd",
-                    "list": [
-                        {
-                            "label": "YouTube",
-                            "url": "https://www.youtube.com/channel/UCp3wjkP4z_s8ceGxyG-Kzvg",
-                            "theme": "#FF0000",
-                            "icon": "icon-youtube-play"
-                        },{
-                            "label": "Mixcloud",
-                            "url": "https://www.mixcloud.com/notv",
-                            "theme": "rgb(237, 139, 121)",
-                            "icon": "icon-mixcloud"
-                        },{
-                            "label": "Soundcloud",
-                            "url": "https://soundcloud.com/trialanderror",
-                            "theme": "#f70",
-                            "icon": "icon-soundcloud"
-                        }
-                    ]
-                },{
-                    "name": "icons",
-                    "label": "Work links",
-                    "modifier": " hg__u--thd",
-                    "list": [
-                        {
-                            "label": "Github",
-                            "url": "https://github.com/netotaku",
-                            "theme": "black",
-                            "icon": "icon-github-alt"
-                        },{
-                            "label": "LinkedIn",
-                            "url": "https://www.linkedin.com/in/nicholasclarkson",
-                            "theme": "#0077b5",
-                            "icon": "icon-linkedin2"
-                        },{
-                            "label": "CV",
-                            "url": "https://standardresume.co/r/nbc",
-                            "theme": "#333",
-                            "icon": "icon-file-o"
                         }
                     ]
                 }
