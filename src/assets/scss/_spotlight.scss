@@ -4,6 +4,10 @@
     overflow: hidden;
     border-radius: $radius;
 
+    &__date{
+        font-style: italic;
+    }
+
     &__grid{
         padding: $gutter;
         background-color: #000;
@@ -26,7 +30,6 @@
         position: absolute;
         top: $gutter;
         right: $gutter;
-        // padding: $gutter;
         overflow: hidden;
         border-radius: $radius;
         background-color: #000;

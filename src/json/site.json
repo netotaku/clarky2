@@ -82,7 +82,7 @@
                 "desc": "Putting the trance classic to rest.",
                 "url": "https://www.tiktok.com/@clar.ky/video/7227554945073974555",
                 "thumb": "/assets/img/spotlight/open-your-mind.jpg",  
-                "date": "24/04/23", 
+                "date": "30 Apr 2023 00:15:32 GMT", 
                 "mode": "list",
                 "brand": "/assets/img/tt.jpg",             
                 "tracks": []                
@@ -92,7 +92,7 @@
                 "desc": "My regular guest spot on the IA DnB feed.",
                 "url": "https://www.tiktok.com/@interstellaraudiodnb/video/7225360607904550171",
                 "thumb": "/assets/img/spotlight/trip-doc.jpg",  
-                "date": "24/04/23", 
+                "date": "24 Apr 2023 00:15:32 GMT", 
                 "mode": "list",
                 "brand": "/assets/img/tt.jpg",           
                 "tracks": []                
@@ -102,7 +102,7 @@
                 "desc": "Contiuous Mix. A look back at the late 90s sound.",
                 "url": "https://www.mixcloud.com/notv/productivity-9-trip-hop-retrospective/",
                 "thumb": "/assets/img/spotlight/p9.png",  
-                "date": "20/04/23", 
+                "date": "20 Apr 2023 00:15:32 GMT", 
                 "mode": "list",
                 "brand": "/assets/img/p/red.jpg",             
                 "tracks": [
@@ -120,7 +120,8 @@
                 "label": "Productivity 6",
                 "desc": "Contiuous Mix. Garage / Breakbeat / Bass House.",
                 "url": "https://www.mixcloud.com/notv/productivity-6-garage-breakbeat-bass-house/",
-                "thumb": "/assets/img/spotlight/nahpop.jpg?3",   
+                "thumb": "/assets/img/spotlight/nahpop.jpg?3",  
+                "date": "15 Apr 2023 00:15:32 GMT",  
                 "mode": "list",             
                 "brand": "/assets/img/p/orange.jpg",    
                 "tracks": [
@@ -139,6 +140,7 @@
                 "desc": "Breakbeat / Electro / French House.",
                 "url": "https://www.mixcloud.com/notv/productivity-8-breaks-mini-mix/",
                 "thumb": "/assets/img/spotlight/deck.png?1",   
+                "date": "01 Apr 2023 00:15:32 GMT", 
                 "mode": "list",
                 "brand": "/assets/img/p/brown.jpg",                 
                 "tracks": [
