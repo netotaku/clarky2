@@ -34,6 +34,16 @@
             "blocks": [
                 {
                     "name": "spotlight",
+                    "label": "Disrespectable",
+                    "desc": "What happens when you lose a bet.",
+                    "url": "https://soundcloud.com/death-pop/disrespectable",
+                    "thumb": "/assets/img/spotlight/melandkim.png",  
+                    "date": "13 May 2023 00:15:32 GMT", 
+                    "mode": "list",
+                    "brand": "",             
+                    "tracks": []                
+                },{
+                    "name": "spotlight",
                     "label": "U.S.U.R.A demixed",
                     "desc": "Putting the trance classic to rest.",
                     "url": "https://www.tiktok.com/@clar.ky/video/7227554945073974555",
